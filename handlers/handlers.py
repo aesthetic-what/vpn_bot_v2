@@ -8,7 +8,9 @@ from apscheduler.jobstores.redis import RedisJobStore
 from apscheduler.schedulers.background import BackgroundScheduler
 import handlers.keyboard as kb
 from redis.asyncio import Redis
+from handlers.xui import *
 import logging
+import time
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -100,6 +102,10 @@ async def tarif_1(call: CallbackQuery):
 
 @router.message(F.text == "⚡️ Подключисться!")
 async def connect(message: Message):
+    expiry_timestamp = int(time.time()) + (7 * 86400)
+
+    await create_inbound(message.from_user.first_name, message.chat.id, expiry_timestamp)  
+
     await message.answer(
         "вот способы подключения к впн:", reply_markup=kb.connect_keyboard.as_markup()
     )
