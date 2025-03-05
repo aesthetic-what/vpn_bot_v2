@@ -6,18 +6,13 @@ from decouple import config
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.jobstores.redis import RedisJobStore
 from apscheduler.schedulers.background import BackgroundScheduler
+from handlers.client import *
 import handlers.keyboard as kb
 from redis.asyncio import Redis
-from handlers.xui import *
-import logging
+from logger import Logger
 import time
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    filename="bot.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-)
+logger = Logger.getinstance()
 
 redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
 
@@ -102,9 +97,10 @@ async def tarif_1(call: CallbackQuery):
 
 @router.message(F.text == "⚡️ Подключисться!")
 async def connect(message: Message):
-    expiry_timestamp = int(time.time()) + (7 * 86400)
+    expiry_timestamp = int(time.time()) + (7 * 1000)
 
-    await create_inbound(message.from_user.first_name, message.chat.id, expiry_timestamp)  
+    await create_user_vpn(f"user + {message.chat.id}", )
+    
 
     await message.answer(
         "вот способы подключения к впн:", reply_markup=kb.connect_keyboard.as_markup()
