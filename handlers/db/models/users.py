@@ -1,14 +1,14 @@
 from sqlalchemy import Column, Integer, String, Boolean, DateTime
-from db.db_core import Base
+from sqlalchemy.orm import Mapped, mapped_column
+from handlers.db.db_core import Base
+from datetime import datetime
 
 class Users(Base):
     __tablename__ = 'users'
-    id = Column(Integer, primary_key=True)
-    username = Column(String)
-    user_id = Column(Integer, unique=True)
-    role = Column(String)
-    bought = Column(Boolean)
-    vpn_key = Column(String, default='1')
-    label = Column(String, default='1')
-    time_sub = Column(DateTime)
-    key_id = Column(String, default='1')
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
+    username: Mapped[str] = mapped_column()
+    user_id: Mapped[str] = mapped_column(unique=True)
+    user_uuid: Mapped[str] = mapped_column()
+    role: Mapped[str] = mapped_column(default='user')
+    vpn_key: Mapped[str] = mapped_column(default='1')
+    time_sub = mapped_column(DateTime)

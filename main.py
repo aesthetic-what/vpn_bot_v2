@@ -1,23 +1,21 @@
 from aiogram import Bot, Dispatcher
-from decouple import config
+# from decouple import config
 import asyncio
 import uvicorn
 
 from handlers.handlers import router
-from handlers.db.db_core import Base, engine
-import logging
+from handlers.db.db_core import init_db
+from logger import Logger
+from dotenv import load_dotenv
+import os
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(filename='api.log', 
-                    level=logging.INFO, 
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+load_dotenv()
 
-async def init_db():
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+logger = Logger.getinstance()
 
 async def main():
-    bot = Bot(token=config('TELEGRAM_TOKEN'))
+    await init_db()
+    bot = Bot(token=os.getenv('TELEGRAM_TOKEN'))
     dp = Dispatcher()
     dp.include_router(router)
     await dp.start_polling(bot)
@@ -32,6 +30,5 @@ if __name__ == '__main__':
     try:
         print('bot started')
         asyncio.run(main())
-        asyncio.run(init_db())
     except KeyboardInterrupt:
         print('bot deactivated')

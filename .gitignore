@@ -2,5 +2,6 @@
 .venv
 **\__pycache__
 **\3x*
-api.log
+*.log
+*.png
 outline*
