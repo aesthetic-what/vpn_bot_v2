@@ -13,7 +13,8 @@ async def main():
     await init_db()
     user_uuid = str(uuid.uuid4())
 
-    # await create_user('sigma_bro', "123123123", user_uuid, datetime.now())
-    await get_connection_string(Inbound, user_uuid, "15qu6big")
+    # await create_user_vpn("1", 100)
+    await update_client_key("sigmochka")
+    
     
 asyncio.run(main())

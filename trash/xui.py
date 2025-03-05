@@ -109,3 +109,23 @@ async def generate_id() -> list:
         segments.append(hex_segment)
 
     return segments
+
+
+async def update_user(name: str, days_valid: int):
+    username = getenv("USERNAME_API")
+    password = getenv("PASSWORD_API")
+
+    # logger.info(f"username: {username}, pass: {password}")
+    api = AsyncApi("http://150.241.85.190:32706/2SHzOV7jeAaM9DT", username, password)
+    await api.login()
+
+    expiry_timestamp = int(time.time()) + (days_valid * 86400)
+    expiry_timestamp * 1000
+
+    client = await api.client.get_by_email(name)
+    inbound = await api.inbound.get_by_id(2)
+
+    # print(client)
+    # print(inbound.settings.clients[0])
+
+    # await api.client.delete(2, inbound.settings.clients[0].id)

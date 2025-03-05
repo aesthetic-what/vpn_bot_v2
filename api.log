@@ -6548,3 +6548,128 @@ FROM pg_catalog.pg_class JOIN pg_catalog.pg_namespace ON pg_catalog.pg_namespace
 WHERE pg_catalog.pg_class.relname = $1::VARCHAR AND pg_catalog.pg_class.relkind = ANY (ARRAY[$2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, $6::VARCHAR]) AND pg_catalog.pg_table_is_visible(pg_catalog.pg_class.oid) AND pg_catalog.pg_namespace.nspname != $7::VARCHAR
 2025-03-04 12:39:36,504 - sqlalchemy.engine.Engine - INFO - [generated in 0.00041s] ('users', 'r', 'p', 'f', 'v', 'm', 'pg_catalog')
 2025-03-04 12:39:36,517 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-03-05 20:27:30,546 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:27:30,853 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:27:30,854 - vpn_bot_v2 - INFO - 6bB9tJ_C9lFIvvaFgaqYM5JMNaob2EnSS5VfDLfZmjg
+2025-03-05 20:27:30,854 - vpn_bot_v2 - INFO - google.com
+2025-03-05 20:27:30,854 - vpn_bot_v2 - INFO - 9c4c554bff076f62
+2025-03-05 20:27:55,783 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:27:56,085 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:27:56,086 - vpn_bot_v2 - INFO - 6bB9tJ_C9lFIvvaFgaqYM5JMNaob2EnSS5VfDLfZmjg
+2025-03-05 20:27:56,086 - vpn_bot_v2 - INFO - google.com
+2025-03-05 20:27:56,086 - vpn_bot_v2 - INFO - 9c4c554bff076f62
+2025-03-05 20:30:42,872 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:30:43,204 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:30:43,204 - vpn_bot_v2 - INFO - 6bB9tJ_C9lFIvvaFgaqYM5JMNaob2EnSS5VfDLfZmjg
+2025-03-05 20:30:43,204 - vpn_bot_v2 - INFO - google.com
+2025-03-05 20:30:43,204 - vpn_bot_v2 - INFO - ['9c4c554bff076f62', '1c68f235d17c', '56b4', '46d307', '087bc2ecaf183d', '5a745c7907', '152fe908', '61']
+2025-03-05 20:31:36,379 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:31:36,687 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:31:36,687 - vpn_bot_v2 - INFO - 6bB9tJ_C9lFIvvaFgaqYM5JMNaob2EnSS5VfDLfZmjg
+2025-03-05 20:31:36,687 - vpn_bot_v2 - INFO - google.com
+2025-03-05 20:31:36,687 - vpn_bot_v2 - INFO - 9c4c554bff076f62
+2025-03-05 20:36:33,362 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 20:36:33,722 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:36:34,027 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 20:36:34,324 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:36:34,623 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:36:34,624 - vpn_bot_v2 - INFO - 6bB9tJ_C9lFIvvaFgaqYM5JMNaob2EnSS5VfDLfZmjg
+2025-03-05 20:36:34,624 - vpn_bot_v2 - INFO - google.com
+2025-03-05 20:36:34,624 - vpn_bot_v2 - INFO - 9c4c554bff076f62
+2025-03-05 20:36:45,378 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 20:36:45,725 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:36:46,023 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 20:36:56,349 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 20:36:56,735 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:36:57,042 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 20:36:57,340 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:36:57,637 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:36:57,637 - vpn_bot_v2 - INFO - 6bB9tJ_C9lFIvvaFgaqYM5JMNaob2EnSS5VfDLfZmjg
+2025-03-05 20:36:57,637 - vpn_bot_v2 - INFO - google.com
+2025-03-05 20:36:57,637 - vpn_bot_v2 - INFO - 9c4c554bff076f62
+2025-03-05 20:38:27,541 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 20:38:27,885 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:38:28,197 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 20:38:28,526 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:38:28,873 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:38:28,874 - vpn_bot_v2 - INFO - 6bB9tJ_C9lFIvvaFgaqYM5JMNaob2EnSS5VfDLfZmjg
+2025-03-05 20:38:28,874 - vpn_bot_v2 - INFO - google.com
+2025-03-05 20:38:28,874 - vpn_bot_v2 - INFO - 9c4c554bff076f62
+2025-03-05 20:39:59,094 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 20:39:59,480 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:39:59,779 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 20:40:00,081 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:40:01,420 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:40:01,420 - vpn_bot_v2 - INFO - 6bB9tJ_C9lFIvvaFgaqYM5JMNaob2EnSS5VfDLfZmjg
+2025-03-05 20:40:01,421 - vpn_bot_v2 - INFO - google.com
+2025-03-05 20:40:01,421 - vpn_bot_v2 - INFO - 9c4c554bff076f62
+2025-03-05 20:46:34,345 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:46:34,642 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:46:34,643 - vpn_bot_v2 - INFO - Inbound has 2 clients
+2025-03-05 20:46:34,643 - vpn_bot_v2 - INFO - Found client with ID: acceac05-a1e8-47ec-be7b-d699586ee105
+2025-03-05 20:46:34,643 - vpn_bot_v2 - INFO - acceac05-a1e8-47ec-be7b-d699586ee105
+2025-03-05 20:52:17,031 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 20:52:17,341 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 20:52:17,342 - vpn_bot_v2 - INFO - Inbound has 2 clients
+2025-03-05 20:52:17,342 - vpn_bot_v2 - INFO - acceac05-a1e8-47ec-be7b-d699586ee105
+2025-03-05 20:52:17,653 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/2/resetClientTraffic/sigmochka "HTTP/1.1 200 OK"
+2025-03-05 21:11:36,093 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 21:11:36,652 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:11:37,169 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 21:11:53,084 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 21:11:53,670 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:11:54,175 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 21:12:12,756 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 21:12:13,341 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:12:13,815 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 21:12:14,352 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/getClientTrafficsById/1a109012-8b16-405a-b1d0-aee65e30b5e9 "HTTP/1.1 200 OK"
+2025-03-05 21:14:02,023 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 21:14:02,601 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:14:03,068 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 21:14:18,399 - vpn_bot_v2 - INFO - username: dgEqV5Yvfg, pass: weWAMYpBCL
+2025-03-05 21:14:18,919 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:14:19,435 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/addClient "HTTP/1.1 200 OK"
+2025-03-05 21:19:26,729 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:19:27,202 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 21:19:27,203 - vpn_bot_v2 - INFO - Inbound has 4 clients
+2025-03-05 21:19:27,203 - vpn_bot_v2 - INFO - 8e64fb19-7823-451f-9a25-4874e4782939
+2025-03-05 21:19:27,733 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/clientIps/1 "HTTP/1.1 200 OK"
+2025-03-05 21:19:44,884 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:19:45,351 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 21:19:45,351 - vpn_bot_v2 - INFO - Inbound has 4 clients
+2025-03-05 21:19:45,352 - vpn_bot_v2 - INFO - 8e64fb19-7823-451f-9a25-4874e4782939
+2025-03-05 21:19:45,897 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/clientIps/1 "HTTP/1.1 200 OK"
+2025-03-05 21:20:29,410 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:20:32,270 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 21:20:32,271 - vpn_bot_v2 - INFO - Inbound has 4 clients
+2025-03-05 21:20:32,271 - vpn_bot_v2 - INFO - 1a109012-8b16-405a-b1d0-aee65e30b5e9
+2025-03-05 21:20:32,730 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/clientIps/Timur "HTTP/1.1 200 OK"
+2025-03-05 21:32:24,949 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:32:25,466 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 21:32:25,466 - vpn_bot_v2 - INFO - Inbound has 3 clients
+2025-03-05 21:32:25,467 - vpn_bot_v2 - INFO - 1a109012-8b16-405a-b1d0-aee65e30b5e9
+2025-03-05 21:32:26,044 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/clientIps/Timur "HTTP/1.1 200 OK"
+2025-03-05 21:32:31,172 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:32:31,726 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 21:32:31,727 - vpn_bot_v2 - INFO - Inbound has 3 clients
+2025-03-05 21:32:31,727 - vpn_bot_v2 - INFO - 1a109012-8b16-405a-b1d0-aee65e30b5e9
+2025-03-05 21:32:47,384 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:32:47,901 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 21:32:47,902 - vpn_bot_v2 - INFO - Inbound has 3 clients
+2025-03-05 21:32:47,902 - vpn_bot_v2 - INFO - 1a109012-8b16-405a-b1d0-aee65e30b5e9
+2025-03-05 21:32:48,426 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/getClientTraffics/Timur "HTTP/1.1 200 OK"
+2025-03-05 21:33:06,925 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:33:07,390 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 21:33:07,391 - vpn_bot_v2 - INFO - Inbound has 3 clients
+2025-03-05 21:33:07,391 - vpn_bot_v2 - INFO - 1a109012-8b16-405a-b1d0-aee65e30b5e9
+2025-03-05 21:33:07,913 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/clientIps/Timur "HTTP/1.1 200 OK"
+2025-03-05 21:41:06,539 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:41:07,114 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 21:41:07,115 - vpn_bot_v2 - INFO - Inbound has 3 clients
+2025-03-05 21:41:07,115 - vpn_bot_v2 - INFO - 1a109012-8b16-405a-b1d0-aee65e30b5e9
+2025-03-05 21:41:09,034 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/clientIps/Timur "HTTP/1.1 200 OK"
+2025-03-05 21:41:28,276 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/login "HTTP/1.1 200 OK"
+2025-03-05 21:41:28,796 - httpx - INFO - HTTP Request: GET http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/get/2 "HTTP/1.1 200 OK"
+2025-03-05 21:41:28,796 - vpn_bot_v2 - INFO - Inbound has 3 clients
+2025-03-05 21:41:28,797 - vpn_bot_v2 - INFO - acceac05-a1e8-47ec-be7b-d699586ee105
+2025-03-05 21:41:29,325 - httpx - INFO - HTTP Request: POST http://150.241.85.190:32706/2SHzOV7jeAaM9DT/panel/api/inbounds/clientIps/sigmochka "HTTP/1.1 200 OK"
