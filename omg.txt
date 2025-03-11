@@ -1,0 +1,3 @@
+~/.acme.sh/acme.sh --set-default-ca --server letsencrypt --issue --standalone -d aestheticperforator.ru \
+--key-file /var/lib/marzban/certs/key.pem \
+--fullchain-file /var/lib/marzban/certs/fullchain.pem

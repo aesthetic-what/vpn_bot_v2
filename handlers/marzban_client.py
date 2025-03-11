@@ -1,9 +1,6 @@
-from marzpy import Marzban
 import asyncio
-        
-async def main():
-    panel = Marzban("username","password","https://example.com")
-    token = await panel.get_token()
-    #await panel.anyfunction(token)
+from datetime import datetime
 
-asyncio.run(main())
+from marzban import MarzbanAPI, AdminCreate, UserCreate, NodeCreate, UserTemplateCreate, AdminModify, UserModify, \
+    UserTemplateModify, NodeModify, ProxySettings, MarzbanTokenCache
+

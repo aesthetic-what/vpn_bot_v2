@@ -6,7 +6,6 @@ from decouple import config
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.jobstores.redis import RedisJobStore
 from apscheduler.schedulers.background import BackgroundScheduler
-from handlers.client import *
 import handlers.keyboard as kb
 from redis.asyncio import Redis
 from logger import Logger
@@ -97,10 +96,7 @@ async def tarif_1(call: CallbackQuery):
 
 @router.message(F.text == "⚡️ Подключисться!")
 async def connect(message: Message):
-    expiry_timestamp = int(time.time()) + (7 * 1000)
-
-    await create_user_vpn(f"user + {message.chat.id}", )
-    
+    expiry_timestamp = int(time.time()) + (7 * 1000)    
 
     await message.answer(
         "вот способы подключения к впн:", reply_markup=kb.connect_keyboard.as_markup()
@@ -130,6 +126,8 @@ async def back(call: CallbackQuery):
     await call.bot.answer_callback_query(call.id)
 
 async def check_payments():
+    """Функция для фоновой проверки оплаты, 
+    после успешной проверки, пользователь получает ключ для подключения к впн"""
     payments = await redis.hgetall("payments")  # Получаем платежи как {payment_id: chat_id}
 
     logger.info(f"Найдено {len(payments)} платежей для проверки")
@@ -144,6 +142,8 @@ async def check_payments():
 
         if payment and payment.status == "succeeded":
             await bot.send_message(chat_id, "✅ Ваш платеж успешно подтвержден!")
+
+            # функция для генерации и выдачи ключа
 
             # Логируем перед удалением
             logger.info(f"Удаляю payment_id: {payment_id} из Redis")
