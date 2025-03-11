@@ -9,7 +9,7 @@ import uuid
 load_dotenv(override=True)
 
 async def main():
-    # await token()
-    await test_marzban()
+    # await trial_sub("1235432", 7, 30)
+    ...
     
 asyncio.run(main())
