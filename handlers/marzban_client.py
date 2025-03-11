@@ -3,14 +3,13 @@ from marzban import (MarzbanAPI,
                      UserCreate, 
                      UserModify, 
                      ProxySettings)
+import os
+from logger import Logger
 
-users = []
+logger = Logger.getinstance()
+
 
 api_url = "https://aestheticperforator.ru"
-
-
-import os
-
 FILE_PATH = "users.txt"  # Файл для хранения tg_id
 
 def load_users():
@@ -32,9 +31,14 @@ def save_user(tg_id):
 
 async def trial_sub(tg_id: str, days_sub: int, data_limit: int):
     api = MarzbanAPI(api_url)
-    token = await api.get_token("admin", "jXCWh9Q7ImaZ")
-    token = token.access_token
+    username = os.getenv("USERNAME_API")
+    password = os.getenv("PASSWORD_API")
 
+    logger.info(f"admin data: {username, password}")
+
+    token = await api.get_token(username, password)
+    token = token.access_token
+    
     __expiry_timestamp = int(time.time()) + (days_sub * 86400)
     __expiry_timestamp * 1000
 
@@ -58,7 +62,10 @@ async def trial_sub(tg_id: str, days_sub: int, data_limit: int):
 
 async def update_sub(tg_id: str, days_sub: int, data_limit: int):
     api = MarzbanAPI(api_url)
-    token = await api.get_token("admin", "jXCWh9Q7ImaZ")
+    username = os.getenv("USERNAME_API")
+    password = os.getenv("PASSWORD_API")
+
+    token = await api.get_token(username, password)
     token = token.access_token
 
     __expiry_timestamp = int(time.time()) + (days_sub * 86400)
@@ -66,6 +73,6 @@ async def update_sub(tg_id: str, days_sub: int, data_limit: int):
 
     __data = data_limit * 2**30
 
-    if tg_id in users:
+    if tg_id in load_users():
         update_user = UserModify(expire=__expiry_timestamp, data_limit=__data)
         await api.modify_user(tg_id, update_user, token)
