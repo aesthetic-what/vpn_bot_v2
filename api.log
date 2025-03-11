@@ -9944,3 +9944,821 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2025-03-12 00:39:04,179 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:39:09 +05)" executed successfully
 2025-03-12 00:39:07,927 - aiogram.dispatcher - INFO - Polling stopped
 2025-03-12 00:39:08,186 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-12 00:42:37,650 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-12 00:42:37,651 - apscheduler.scheduler - INFO - Added job "check_payments" to job store "default"
+2025-03-12 00:42:37,651 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-12 00:42:37,651 - aiogram.dispatcher - INFO - Start polling
+2025-03-12 00:42:38,167 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-12 00:42:40,697 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-12 00:42:40,844 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 200 OK"
+2025-03-12 00:42:41,393 - aiogram.event - INFO - Update id=278180613 is handled. Duration 1552 ms by bot id=7429942015
+2025-03-12 00:42:42,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:42:47 +05)" (scheduled at 2025-03-12 00:42:42.650714+05:00)
+2025-03-12 00:42:42,656 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:42:42,656 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:42:47 +05)" executed successfully
+2025-03-12 00:42:43,294 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-12 00:42:43,430 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 200 OK"
+2025-03-12 00:42:43,653 - aiogram.event - INFO - Update id=278180614 is handled. Duration 1133 ms by bot id=7429942015
+2025-03-12 00:42:47,657 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:42:52 +05)" (scheduled at 2025-03-12 00:42:47.650714+05:00)
+2025-03-12 00:42:47,658 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:42:47,658 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:42:52 +05)" executed successfully
+2025-03-12 00:42:52,663 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:42:57 +05)" (scheduled at 2025-03-12 00:42:52.650714+05:00)
+2025-03-12 00:42:52,664 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:42:52,665 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:42:57 +05)" executed successfully
+2025-03-12 00:42:57,658 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:02 +05)" (scheduled at 2025-03-12 00:42:57.650714+05:00)
+2025-03-12 00:42:57,659 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:42:57,660 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:02 +05)" executed successfully
+2025-03-12 00:43:02,659 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:07 +05)" (scheduled at 2025-03-12 00:43:02.650714+05:00)
+2025-03-12 00:43:02,660 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:43:02,661 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:07 +05)" executed successfully
+2025-03-12 00:43:03,162 - aiogram.event - INFO - Update id=278180615 is handled. Duration 191 ms by bot id=7429942015
+2025-03-12 00:43:07,655 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:12 +05)" (scheduled at 2025-03-12 00:43:07.650714+05:00)
+2025-03-12 00:43:07,656 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:43:07,656 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:12 +05)" executed successfully
+2025-03-12 00:43:09,626 - aiogram.event - INFO - Update id=278180616 is handled. Duration 103 ms by bot id=7429942015
+2025-03-12 00:43:11,260 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-12 00:43:11,762 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/user "HTTP/1.1 200 OK"
+2025-03-12 00:43:11,952 - aiogram.event - INFO - Update id=278180617 is handled. Duration 1521 ms by bot id=7429942015
+2025-03-12 00:43:12,664 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:17 +05)" (scheduled at 2025-03-12 00:43:12.650714+05:00)
+2025-03-12 00:43:12,666 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:43:12,666 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:17 +05)" executed successfully
+2025-03-12 00:43:17,661 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:22 +05)" (scheduled at 2025-03-12 00:43:17.650714+05:00)
+2025-03-12 00:43:17,662 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:43:17,662 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:22 +05)" executed successfully
+2025-03-12 00:43:21,902 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-12 00:43:22,056 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 200 OK"
+2025-03-12 00:43:22,364 - aiogram.event - INFO - Update id=278180618 is handled. Duration 1272 ms by bot id=7429942015
+2025-03-12 00:43:22,554 - aiogram.event - INFO - Update id=278180619 is not handled. Duration 0 ms by bot id=7429942015
+2025-03-12 00:43:22,658 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:27 +05)" (scheduled at 2025-03-12 00:43:22.650714+05:00)
+2025-03-12 00:43:22,659 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:43:22,660 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:27 +05)" executed successfully
+2025-03-12 00:43:26,893 - aiogram.event - INFO - Update id=278180620 is not handled. Duration 0 ms by bot id=7429942015
+2025-03-12 00:43:27,652 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:32 +05)" (scheduled at 2025-03-12 00:43:27.650714+05:00)
+2025-03-12 00:43:27,654 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:43:27,654 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:32 +05)" executed successfully
+2025-03-12 00:43:28,440 - aiogram.event - INFO - Update id=278180621 is handled. Duration 211 ms by bot id=7429942015
+2025-03-12 00:43:30,351 - aiogram.event - INFO - Update id=278180622 is handled. Duration 195 ms by bot id=7429942015
+2025-03-12 00:43:32,660 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:37 +05)" (scheduled at 2025-03-12 00:43:32.650714+05:00)
+2025-03-12 00:43:32,661 - vpn_bot_v2 - INFO - Найдено 0 платежей для проверки
+2025-03-12 00:43:32,661 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:37 +05)" executed successfully
+2025-03-12 00:43:32,704 - vpn_bot_v2 - INFO - chat_id: 1657703013, payment_id: 2f62a661-000f-5000-b000-1670f81e2203
+2025-03-12 00:43:32,705 - vpn_bot_v2 - INFO - Проверка платежей возобновлена
+2025-03-12 00:43:32,797 - aiogram.event - INFO - Update id=278180623 is handled. Duration 851 ms by bot id=7429942015
+2025-03-12 00:43:37,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:42 +05)" (scheduled at 2025-03-12 00:43:37.650714+05:00)
+2025-03-12 00:43:37,666 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:43:38,191 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:42 +05)" executed successfully
+2025-03-12 00:43:42,660 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:47 +05)" (scheduled at 2025-03-12 00:43:42.650714+05:00)
+2025-03-12 00:43:42,661 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:43:43,206 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:47 +05)" executed successfully
+2025-03-12 00:43:47,644 - aiogram.event - INFO - Update id=278180624 is handled. Duration 260 ms by bot id=7429942015
+2025-03-12 00:43:47,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:52 +05)" (scheduled at 2025-03-12 00:43:47.650714+05:00)
+2025-03-12 00:43:47,655 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:43:48,186 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:52 +05)" executed successfully
+2025-03-12 00:43:50,690 - aiogram.event - INFO - Update id=278180625 is not handled. Duration 0 ms by bot id=7429942015
+2025-03-12 00:43:52,661 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:57 +05)" (scheduled at 2025-03-12 00:43:52.650714+05:00)
+2025-03-12 00:43:52,663 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:43:53,204 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:43:57 +05)" executed successfully
+2025-03-12 00:43:55,888 - aiogram.event - INFO - Update id=278180626 is handled. Duration 231 ms by bot id=7429942015
+2025-03-12 00:43:57,652 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:02 +05)" (scheduled at 2025-03-12 00:43:57.650714+05:00)
+2025-03-12 00:43:57,654 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:43:58,209 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:02 +05)" executed successfully
+2025-03-12 00:44:02,663 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:07 +05)" (scheduled at 2025-03-12 00:44:02.650714+05:00)
+2025-03-12 00:44:02,665 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:03,224 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:07 +05)" executed successfully
+2025-03-12 00:44:07,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:12 +05)" (scheduled at 2025-03-12 00:44:07.650714+05:00)
+2025-03-12 00:44:07,655 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:08,201 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:12 +05)" executed successfully
+2025-03-12 00:44:12,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:17 +05)" (scheduled at 2025-03-12 00:44:12.650714+05:00)
+2025-03-12 00:44:12,656 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:13,239 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:17 +05)" executed successfully
+2025-03-12 00:44:17,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:22 +05)" (scheduled at 2025-03-12 00:44:17.650714+05:00)
+2025-03-12 00:44:17,667 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:18,220 - aiogram.event - INFO - Update id=278180627 is handled. Duration 1131 ms by bot id=7429942015
+2025-03-12 00:44:18,220 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:22 +05)" executed successfully
+2025-03-12 00:44:22,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:27 +05)" (scheduled at 2025-03-12 00:44:22.650714+05:00)
+2025-03-12 00:44:22,667 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:23,197 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:27 +05)" executed successfully
+2025-03-12 00:44:27,661 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:32 +05)" (scheduled at 2025-03-12 00:44:27.650714+05:00)
+2025-03-12 00:44:27,662 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:28,192 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:32 +05)" executed successfully
+2025-03-12 00:44:32,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:37 +05)" (scheduled at 2025-03-12 00:44:32.650714+05:00)
+2025-03-12 00:44:32,655 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:33,183 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:37 +05)" executed successfully
+2025-03-12 00:44:37,662 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:42 +05)" (scheduled at 2025-03-12 00:44:37.650714+05:00)
+2025-03-12 00:44:37,664 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:38,176 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:42 +05)" executed successfully
+2025-03-12 00:44:42,666 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:47 +05)" (scheduled at 2025-03-12 00:44:42.650714+05:00)
+2025-03-12 00:44:42,667 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:43,193 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:47 +05)" executed successfully
+2025-03-12 00:44:47,666 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:52 +05)" (scheduled at 2025-03-12 00:44:47.650714+05:00)
+2025-03-12 00:44:47,667 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:48,225 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:52 +05)" executed successfully
+2025-03-12 00:44:52,663 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:57 +05)" (scheduled at 2025-03-12 00:44:52.650714+05:00)
+2025-03-12 00:44:52,665 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:53,200 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:44:57 +05)" executed successfully
+2025-03-12 00:44:57,657 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:02 +05)" (scheduled at 2025-03-12 00:44:57.650714+05:00)
+2025-03-12 00:44:57,659 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:44:58,202 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:02 +05)" executed successfully
+2025-03-12 00:45:02,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:07 +05)" (scheduled at 2025-03-12 00:45:02.650714+05:00)
+2025-03-12 00:45:02,667 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:03,201 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:07 +05)" executed successfully
+2025-03-12 00:45:07,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:12 +05)" (scheduled at 2025-03-12 00:45:07.650714+05:00)
+2025-03-12 00:45:07,667 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:08,184 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:12 +05)" executed successfully
+2025-03-12 00:45:12,659 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:17 +05)" (scheduled at 2025-03-12 00:45:12.650714+05:00)
+2025-03-12 00:45:12,660 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:13,198 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:17 +05)" executed successfully
+2025-03-12 00:45:17,659 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:22 +05)" (scheduled at 2025-03-12 00:45:17.650714+05:00)
+2025-03-12 00:45:17,660 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:18,193 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:22 +05)" executed successfully
+2025-03-12 00:45:22,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:27 +05)" (scheduled at 2025-03-12 00:45:22.650714+05:00)
+2025-03-12 00:45:22,667 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:23,238 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:27 +05)" executed successfully
+2025-03-12 00:45:27,657 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:32 +05)" (scheduled at 2025-03-12 00:45:27.650714+05:00)
+2025-03-12 00:45:27,658 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:28,185 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:32 +05)" executed successfully
+2025-03-12 00:45:32,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:37 +05)" (scheduled at 2025-03-12 00:45:32.650714+05:00)
+2025-03-12 00:45:32,656 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:33,184 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:37 +05)" executed successfully
+2025-03-12 00:45:37,662 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:42 +05)" (scheduled at 2025-03-12 00:45:37.650714+05:00)
+2025-03-12 00:45:37,664 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:38,194 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:42 +05)" executed successfully
+2025-03-12 00:45:42,657 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:47 +05)" (scheduled at 2025-03-12 00:45:42.650714+05:00)
+2025-03-12 00:45:42,658 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:43,185 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:47 +05)" executed successfully
+2025-03-12 00:45:47,657 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:52 +05)" (scheduled at 2025-03-12 00:45:47.650714+05:00)
+2025-03-12 00:45:47,658 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:48,210 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:52 +05)" executed successfully
+2025-03-12 00:45:52,655 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:57 +05)" (scheduled at 2025-03-12 00:45:52.650714+05:00)
+2025-03-12 00:45:52,656 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:53,187 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:45:57 +05)" executed successfully
+2025-03-12 00:45:57,664 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:02 +05)" (scheduled at 2025-03-12 00:45:57.650714+05:00)
+2025-03-12 00:45:57,666 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:45:58,189 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:02 +05)" executed successfully
+2025-03-12 00:46:02,663 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:07 +05)" (scheduled at 2025-03-12 00:46:02.650714+05:00)
+2025-03-12 00:46:02,664 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:03,204 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:07 +05)" executed successfully
+2025-03-12 00:46:07,661 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:12 +05)" (scheduled at 2025-03-12 00:46:07.650714+05:00)
+2025-03-12 00:46:07,663 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:08,186 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:12 +05)" executed successfully
+2025-03-12 00:46:12,655 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:17 +05)" (scheduled at 2025-03-12 00:46:12.650714+05:00)
+2025-03-12 00:46:12,657 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:13,192 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:17 +05)" executed successfully
+2025-03-12 00:46:17,663 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:22 +05)" (scheduled at 2025-03-12 00:46:17.650714+05:00)
+2025-03-12 00:46:17,664 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:18,188 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:22 +05)" executed successfully
+2025-03-12 00:46:22,666 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:27 +05)" (scheduled at 2025-03-12 00:46:22.650714+05:00)
+2025-03-12 00:46:22,668 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:23,226 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:27 +05)" executed successfully
+2025-03-12 00:46:27,653 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:32 +05)" (scheduled at 2025-03-12 00:46:27.650714+05:00)
+2025-03-12 00:46:27,655 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:28,187 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:32 +05)" executed successfully
+2025-03-12 00:46:32,664 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:37 +05)" (scheduled at 2025-03-12 00:46:32.650714+05:00)
+2025-03-12 00:46:32,666 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:33,197 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:37 +05)" executed successfully
+2025-03-12 00:46:37,651 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:42 +05)" (scheduled at 2025-03-12 00:46:37.650714+05:00)
+2025-03-12 00:46:37,653 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:38,186 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:42 +05)" executed successfully
+2025-03-12 00:46:42,652 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:47 +05)" (scheduled at 2025-03-12 00:46:42.650714+05:00)
+2025-03-12 00:46:42,653 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:43,171 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:47 +05)" executed successfully
+2025-03-12 00:46:47,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:52 +05)" (scheduled at 2025-03-12 00:46:47.650714+05:00)
+2025-03-12 00:46:47,666 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:48,215 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:52 +05)" executed successfully
+2025-03-12 00:46:52,663 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:57 +05)" (scheduled at 2025-03-12 00:46:52.650714+05:00)
+2025-03-12 00:46:52,665 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:53,197 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:46:57 +05)" executed successfully
+2025-03-12 00:46:57,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:02 +05)" (scheduled at 2025-03-12 00:46:57.650714+05:00)
+2025-03-12 00:46:57,655 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:46:58,190 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:02 +05)" executed successfully
+2025-03-12 00:47:02,653 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:07 +05)" (scheduled at 2025-03-12 00:47:02.650714+05:00)
+2025-03-12 00:47:02,655 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:03,173 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:07 +05)" executed successfully
+2025-03-12 00:47:07,659 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:12 +05)" (scheduled at 2025-03-12 00:47:07.650714+05:00)
+2025-03-12 00:47:07,660 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:08,175 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:12 +05)" executed successfully
+2025-03-12 00:47:12,658 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:17 +05)" (scheduled at 2025-03-12 00:47:12.650714+05:00)
+2025-03-12 00:47:12,659 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:13,197 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:17 +05)" executed successfully
+2025-03-12 00:47:17,653 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:22 +05)" (scheduled at 2025-03-12 00:47:17.650714+05:00)
+2025-03-12 00:47:17,654 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:18,165 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:22 +05)" executed successfully
+2025-03-12 00:47:22,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:27 +05)" (scheduled at 2025-03-12 00:47:22.650714+05:00)
+2025-03-12 00:47:22,666 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:23,192 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:27 +05)" executed successfully
+2025-03-12 00:47:27,652 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:32 +05)" (scheduled at 2025-03-12 00:47:27.650714+05:00)
+2025-03-12 00:47:27,654 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:28,202 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:32 +05)" executed successfully
+2025-03-12 00:47:32,662 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:37 +05)" (scheduled at 2025-03-12 00:47:32.650714+05:00)
+2025-03-12 00:47:32,663 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:33,200 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:37 +05)" executed successfully
+2025-03-12 00:47:37,659 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:42 +05)" (scheduled at 2025-03-12 00:47:37.650714+05:00)
+2025-03-12 00:47:37,661 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:38,203 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:42 +05)" executed successfully
+2025-03-12 00:47:42,657 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:47 +05)" (scheduled at 2025-03-12 00:47:42.650714+05:00)
+2025-03-12 00:47:42,658 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:43,185 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:47 +05)" executed successfully
+2025-03-12 00:47:47,661 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:52 +05)" (scheduled at 2025-03-12 00:47:47.650714+05:00)
+2025-03-12 00:47:47,663 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:48,180 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:52 +05)" executed successfully
+2025-03-12 00:47:52,664 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:57 +05)" (scheduled at 2025-03-12 00:47:52.650714+05:00)
+2025-03-12 00:47:52,680 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:53,188 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:47:57 +05)" executed successfully
+2025-03-12 00:47:57,652 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:02 +05)" (scheduled at 2025-03-12 00:47:57.650714+05:00)
+2025-03-12 00:47:57,654 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:47:58,186 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:02 +05)" executed successfully
+2025-03-12 00:48:02,656 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:07 +05)" (scheduled at 2025-03-12 00:48:02.650714+05:00)
+2025-03-12 00:48:02,658 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:03,209 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:07 +05)" executed successfully
+2025-03-12 00:48:07,662 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:12 +05)" (scheduled at 2025-03-12 00:48:07.650714+05:00)
+2025-03-12 00:48:07,663 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:08,199 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:12 +05)" executed successfully
+2025-03-12 00:48:12,661 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:17 +05)" (scheduled at 2025-03-12 00:48:12.650714+05:00)
+2025-03-12 00:48:12,662 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:13,202 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:17 +05)" executed successfully
+2025-03-12 00:48:17,663 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:22 +05)" (scheduled at 2025-03-12 00:48:17.650714+05:00)
+2025-03-12 00:48:17,665 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:18,199 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:22 +05)" executed successfully
+2025-03-12 00:48:22,656 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:27 +05)" (scheduled at 2025-03-12 00:48:22.650714+05:00)
+2025-03-12 00:48:22,657 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:23,175 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:27 +05)" executed successfully
+2025-03-12 00:48:27,651 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:32 +05)" (scheduled at 2025-03-12 00:48:27.650714+05:00)
+2025-03-12 00:48:27,653 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:28,192 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:32 +05)" executed successfully
+2025-03-12 00:48:32,662 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:37 +05)" (scheduled at 2025-03-12 00:48:32.650714+05:00)
+2025-03-12 00:48:32,664 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:33,209 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:37 +05)" executed successfully
+2025-03-12 00:48:37,652 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:42 +05)" (scheduled at 2025-03-12 00:48:37.650714+05:00)
+2025-03-12 00:48:37,654 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:38,186 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:42 +05)" executed successfully
+2025-03-12 00:48:42,660 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:47 +05)" (scheduled at 2025-03-12 00:48:42.650714+05:00)
+2025-03-12 00:48:42,662 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:43,175 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:47 +05)" executed successfully
+2025-03-12 00:48:47,656 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:52 +05)" (scheduled at 2025-03-12 00:48:47.650714+05:00)
+2025-03-12 00:48:47,658 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:48,178 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:52 +05)" executed successfully
+2025-03-12 00:48:52,660 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:57 +05)" (scheduled at 2025-03-12 00:48:52.650714+05:00)
+2025-03-12 00:48:52,661 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:53,184 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:48:57 +05)" executed successfully
+2025-03-12 00:48:57,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:02 +05)" (scheduled at 2025-03-12 00:48:57.650714+05:00)
+2025-03-12 00:48:57,666 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:48:58,185 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:02 +05)" executed successfully
+2025-03-12 00:49:02,657 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:07 +05)" (scheduled at 2025-03-12 00:49:02.650714+05:00)
+2025-03-12 00:49:02,659 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:03,187 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:07 +05)" executed successfully
+2025-03-12 00:49:07,664 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:12 +05)" (scheduled at 2025-03-12 00:49:07.650714+05:00)
+2025-03-12 00:49:07,665 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:08,189 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:12 +05)" executed successfully
+2025-03-12 00:49:12,652 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:17 +05)" (scheduled at 2025-03-12 00:49:12.650714+05:00)
+2025-03-12 00:49:12,654 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:13,198 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:17 +05)" executed successfully
+2025-03-12 00:49:17,656 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:22 +05)" (scheduled at 2025-03-12 00:49:17.650714+05:00)
+2025-03-12 00:49:17,658 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:18,219 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:22 +05)" executed successfully
+2025-03-12 00:49:22,659 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:27 +05)" (scheduled at 2025-03-12 00:49:22.650714+05:00)
+2025-03-12 00:49:22,661 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:23,210 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:27 +05)" executed successfully
+2025-03-12 00:49:27,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:32 +05)" (scheduled at 2025-03-12 00:49:27.650714+05:00)
+2025-03-12 00:49:27,656 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:28,168 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:32 +05)" executed successfully
+2025-03-12 00:49:32,660 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:37 +05)" (scheduled at 2025-03-12 00:49:32.650714+05:00)
+2025-03-12 00:49:32,662 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:33,201 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:37 +05)" executed successfully
+2025-03-12 00:49:37,655 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:42 +05)" (scheduled at 2025-03-12 00:49:37.650714+05:00)
+2025-03-12 00:49:37,657 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:38,187 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:42 +05)" executed successfully
+2025-03-12 00:49:42,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:47 +05)" (scheduled at 2025-03-12 00:49:42.650714+05:00)
+2025-03-12 00:49:42,655 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:43,199 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:47 +05)" executed successfully
+2025-03-12 00:49:47,664 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:52 +05)" (scheduled at 2025-03-12 00:49:47.650714+05:00)
+2025-03-12 00:49:47,666 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:48,191 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:52 +05)" executed successfully
+2025-03-12 00:49:52,652 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:57 +05)" (scheduled at 2025-03-12 00:49:52.650714+05:00)
+2025-03-12 00:49:52,653 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:53,183 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:49:57 +05)" executed successfully
+2025-03-12 00:49:57,662 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:02 +05)" (scheduled at 2025-03-12 00:49:57.650714+05:00)
+2025-03-12 00:49:57,664 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:49:58,197 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:02 +05)" executed successfully
+2025-03-12 00:50:02,661 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:07 +05)" (scheduled at 2025-03-12 00:50:02.650714+05:00)
+2025-03-12 00:50:02,662 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:03,181 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:07 +05)" executed successfully
+2025-03-12 00:50:07,660 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:12 +05)" (scheduled at 2025-03-12 00:50:07.650714+05:00)
+2025-03-12 00:50:07,661 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:08,206 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:12 +05)" executed successfully
+2025-03-12 00:50:12,652 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:17 +05)" (scheduled at 2025-03-12 00:50:12.650714+05:00)
+2025-03-12 00:50:12,654 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:13,188 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:17 +05)" executed successfully
+2025-03-12 00:50:17,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:22 +05)" (scheduled at 2025-03-12 00:50:17.650714+05:00)
+2025-03-12 00:50:17,667 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:18,186 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:22 +05)" executed successfully
+2025-03-12 00:50:22,665 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:27 +05)" (scheduled at 2025-03-12 00:50:22.650714+05:00)
+2025-03-12 00:50:22,667 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:23,210 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:27 +05)" executed successfully
+2025-03-12 00:50:27,657 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:32 +05)" (scheduled at 2025-03-12 00:50:27.650714+05:00)
+2025-03-12 00:50:27,659 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:28,186 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:32 +05)" executed successfully
+2025-03-12 00:50:32,662 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:37 +05)" (scheduled at 2025-03-12 00:50:32.650714+05:00)
+2025-03-12 00:50:32,664 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:33,200 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:37 +05)" executed successfully
+2025-03-12 00:50:37,656 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:42 +05)" (scheduled at 2025-03-12 00:50:37.650714+05:00)
+2025-03-12 00:50:37,657 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:38,176 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:42 +05)" executed successfully
+2025-03-12 00:50:42,655 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:47 +05)" (scheduled at 2025-03-12 00:50:42.650714+05:00)
+2025-03-12 00:50:42,657 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:43,186 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:47 +05)" executed successfully
+2025-03-12 00:50:47,660 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:52 +05)" (scheduled at 2025-03-12 00:50:47.650714+05:00)
+2025-03-12 00:50:47,661 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:48,210 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:52 +05)" executed successfully
+2025-03-12 00:50:52,660 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:57 +05)" (scheduled at 2025-03-12 00:50:52.650714+05:00)
+2025-03-12 00:50:52,662 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:53,191 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:50:57 +05)" executed successfully
+2025-03-12 00:50:57,654 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:02 +05)" (scheduled at 2025-03-12 00:50:57.650714+05:00)
+2025-03-12 00:50:57,655 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:50:58,210 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:02 +05)" executed successfully
+2025-03-12 00:51:02,656 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:07 +05)" (scheduled at 2025-03-12 00:51:02.650714+05:00)
+2025-03-12 00:51:02,657 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:51:03,205 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:07 +05)" executed successfully
+2025-03-12 00:51:07,653 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:12 +05)" (scheduled at 2025-03-12 00:51:07.650714+05:00)
+2025-03-12 00:51:07,655 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:51:08,200 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:12 +05)" executed successfully
+2025-03-12 00:51:10,488 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-12 00:51:10,752 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-12 00:51:10,902 - asyncio - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001A7A4EB79D0>
+2025-03-12 00:51:18,626 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-12 00:51:18,627 - apscheduler.scheduler - INFO - Added job "check_payments" to job store "default"
+2025-03-12 00:51:18,627 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-12 00:51:18,627 - aiogram.dispatcher - INFO - Start polling
+2025-03-12 00:51:19,134 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-12 00:51:23,631 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:28 +05)" (scheduled at 2025-03-12 00:51:23.626826+05:00)
+2025-03-12 00:51:23,633 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:51:24,182 - aiogram.event - INFO - Update id=278180628 is handled. Duration 903 ms by bot id=7429942015
+2025-03-12 00:51:24,182 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:28 +05)" executed successfully
+2025-03-12 00:51:26,431 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 401 Unauthorized"
+2025-03-12 00:51:26,432 - aiogram.event - INFO - Update id=278180629 is not handled. Duration 677 ms by bot id=7429942015
+2025-03-12 00:51:26,432 - aiogram.event - ERROR - Cause exception while process update id=278180629 by bot id=7429942015
+HTTPStatusError: Client error '401 Unauthorized' for url 'https://aestheticperforator.ru/api/admin/token'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\handlers\handlers.py", line 94, in connect
+    sub_link = await trial_sub(str(message.chat.id), 10, 30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\handlers\marzban_client.py", line 34, in trial_sub
+    token = await api.get_token(username, password)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 139, in get_token
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://aestheticperforator.ru/api/admin/token'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-12 00:51:28,635 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:33 +05)" (scheduled at 2025-03-12 00:51:28.626826+05:00)
+2025-03-12 00:51:28,637 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:51:29,171 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:33 +05)" executed successfully
+2025-03-12 00:51:33,642 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:38 +05)" (scheduled at 2025-03-12 00:51:33.626826+05:00)
+2025-03-12 00:51:33,643 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:51:34,181 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:38 +05)" executed successfully
+2025-03-12 00:51:38,633 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:43 +05)" (scheduled at 2025-03-12 00:51:38.626826+05:00)
+2025-03-12 00:51:38,635 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:51:39,161 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:43 +05)" executed successfully
+2025-03-12 00:51:43,632 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:48 +05)" (scheduled at 2025-03-12 00:51:43.626826+05:00)
+2025-03-12 00:51:43,633 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:51:44,158 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:48 +05)" executed successfully
+2025-03-12 00:51:48,640 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:53 +05)" (scheduled at 2025-03-12 00:51:48.626826+05:00)
+2025-03-12 00:51:48,642 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:51:49,182 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:51:53 +05)" executed successfully
+2025-03-12 00:51:51,485 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-12 00:51:51,737 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-12 00:52:38,002 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-12 00:52:38,004 - apscheduler.scheduler - INFO - Added job "check_payments" to job store "default"
+2025-03-12 00:52:38,004 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-12 00:52:38,004 - aiogram.dispatcher - INFO - Start polling
+2025-03-12 00:52:38,435 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-12 00:52:41,590 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 401 Unauthorized"
+2025-03-12 00:52:41,591 - aiogram.event - INFO - Update id=278180630 is not handled. Duration 656 ms by bot id=7429942015
+2025-03-12 00:52:41,591 - aiogram.event - ERROR - Cause exception while process update id=278180630 by bot id=7429942015
+HTTPStatusError: Client error '401 Unauthorized' for url 'https://aestheticperforator.ru/api/admin/token'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\handlers\handlers.py", line 94, in connect
+    sub_link = await trial_sub(str(message.chat.id), 10, 30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\handlers\marzban_client.py", line 39, in trial_sub
+    token = await api.get_token(username, password)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 139, in get_token
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://aestheticperforator.ru/api/admin/token'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-12 00:52:43,019 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:52:48 +05)" (scheduled at 2025-03-12 00:52:43.002905+05:00)
+2025-03-12 00:52:43,020 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:52:43,557 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:52:48 +05)" executed successfully
+2025-03-12 00:52:48,015 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:52:53 +05)" (scheduled at 2025-03-12 00:52:48.002905+05:00)
+2025-03-12 00:52:48,016 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:52:48,560 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:52:53 +05)" executed successfully
+2025-03-12 00:52:53,009 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:52:58 +05)" (scheduled at 2025-03-12 00:52:53.002905+05:00)
+2025-03-12 00:52:53,011 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:52:53,569 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:52:58 +05)" executed successfully
+2025-03-12 00:52:58,012 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:03 +05)" (scheduled at 2025-03-12 00:52:58.002905+05:00)
+2025-03-12 00:52:58,014 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:52:58,579 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:03 +05)" executed successfully
+2025-03-12 00:53:00,355 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-12 00:53:00,616 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-12 00:53:17,654 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-12 00:53:17,655 - apscheduler.scheduler - INFO - Added job "check_payments" to job store "default"
+2025-03-12 00:53:17,655 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-12 00:53:17,655 - aiogram.dispatcher - INFO - Start polling
+2025-03-12 00:53:18,068 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-12 00:53:19,124 - vpn_bot_v2 - INFO - admin data: ('dgEqV5Yvfg', 'weWAMYpBCL')
+2025-03-12 00:53:19,816 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 401 Unauthorized"
+2025-03-12 00:53:19,816 - aiogram.event - INFO - Update id=278180631 is not handled. Duration 740 ms by bot id=7429942015
+2025-03-12 00:53:19,816 - aiogram.event - ERROR - Cause exception while process update id=278180631 by bot id=7429942015
+HTTPStatusError: Client error '401 Unauthorized' for url 'https://aestheticperforator.ru/api/admin/token'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\handlers\handlers.py", line 94, in connect
+    sub_link = await trial_sub(str(message.chat.id), 10, 30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\handlers\marzban_client.py", line 39, in trial_sub
+    token = await api.get_token(username, password)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 139, in get_token
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '401 Unauthorized' for url 'https://aestheticperforator.ru/api/admin/token'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-03-12 00:53:22,656 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:27 +05)" (scheduled at 2025-03-12 00:53:22.654865+05:00)
+2025-03-12 00:53:22,657 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:53:23,204 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:27 +05)" executed successfully
+2025-03-12 00:53:27,668 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:32 +05)" (scheduled at 2025-03-12 00:53:27.654865+05:00)
+2025-03-12 00:53:27,670 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:53:28,202 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:32 +05)" executed successfully
+2025-03-12 00:53:39,858 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-12 00:53:39,858 - apscheduler.scheduler - INFO - Added job "check_payments" to job store "default"
+2025-03-12 00:53:39,858 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-12 00:53:39,859 - aiogram.dispatcher - INFO - Start polling
+2025-03-12 00:53:40,256 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-12 00:53:41,060 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-12 00:53:41,850 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-12 00:53:41,998 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 200 OK"
+2025-03-12 00:53:42,599 - aiogram.event - INFO - Update id=278180632 is handled. Duration 1606 ms by bot id=7429942015
+2025-03-12 00:53:44,869 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:49 +05)" (scheduled at 2025-03-12 00:53:44.858165+05:00)
+2025-03-12 00:53:44,871 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:53:45,417 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:49 +05)" executed successfully
+2025-03-12 00:53:49,858 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:54 +05)" (scheduled at 2025-03-12 00:53:49.858165+05:00)
+2025-03-12 00:53:49,860 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:53:50,392 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:54 +05)" executed successfully
+2025-03-12 00:53:54,860 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:59 +05)" (scheduled at 2025-03-12 00:53:54.858165+05:00)
+2025-03-12 00:53:54,862 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:53:55,437 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:53:59 +05)" executed successfully
+2025-03-12 00:53:59,861 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:04 +05)" (scheduled at 2025-03-12 00:53:59.858165+05:00)
+2025-03-12 00:53:59,863 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:00,385 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:04 +05)" executed successfully
+2025-03-12 00:54:04,871 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:09 +05)" (scheduled at 2025-03-12 00:54:04.858165+05:00)
+2025-03-12 00:54:04,873 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:05,413 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:09 +05)" executed successfully
+2025-03-12 00:54:05,414 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-12 00:54:06,204 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-12 00:54:06,347 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 200 OK"
+2025-03-12 00:54:06,685 - aiogram.event - INFO - Update id=278180633 is handled. Duration 1272 ms by bot id=7429942015
+2025-03-12 00:54:09,859 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:14 +05)" (scheduled at 2025-03-12 00:54:09.858165+05:00)
+2025-03-12 00:54:09,861 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:10,385 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:14 +05)" executed successfully
+2025-03-12 00:54:14,873 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:19 +05)" (scheduled at 2025-03-12 00:54:14.858165+05:00)
+2025-03-12 00:54:14,874 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:15,406 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:19 +05)" executed successfully
+2025-03-12 00:54:19,858 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:24 +05)" (scheduled at 2025-03-12 00:54:19.858165+05:00)
+2025-03-12 00:54:19,860 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:20,385 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:24 +05)" executed successfully
+2025-03-12 00:54:23,164 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-12 00:54:23,977 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-12 00:54:24,122 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 200 OK"
+2025-03-12 00:54:24,333 - aiogram.event - INFO - Update id=278180634 is handled. Duration 1169 ms by bot id=7429942015
+2025-03-12 00:54:24,860 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:29 +05)" (scheduled at 2025-03-12 00:54:24.858165+05:00)
+2025-03-12 00:54:24,862 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:25,404 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:29 +05)" executed successfully
+2025-03-12 00:54:29,861 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:34 +05)" (scheduled at 2025-03-12 00:54:29.858165+05:00)
+2025-03-12 00:54:29,862 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:30,460 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:34 +05)" executed successfully
+2025-03-12 00:54:34,871 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:39 +05)" (scheduled at 2025-03-12 00:54:34.858165+05:00)
+2025-03-12 00:54:34,873 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:35,528 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:39 +05)" executed successfully
+2025-03-12 00:54:39,859 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:44 +05)" (scheduled at 2025-03-12 00:54:39.858165+05:00)
+2025-03-12 00:54:39,861 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:40,422 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:44 +05)" executed successfully
+2025-03-12 00:54:40,519 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-12 00:54:41,338 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-12 00:54:41,866 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 404 Not Found"
+2025-03-12 00:54:41,866 - aiogram.event - INFO - Update id=278180635 is not handled. Duration 1348 ms by bot id=7429942015
+2025-03-12 00:54:41,866 - aiogram.event - ERROR - Cause exception while process update id=278180635 by bot id=7429942015
+HTTPStatusError: Client error '404 Not Found' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\handlers\handlers.py", line 94, in connect
+    sub_link = await trial_sub(str(message.chat.id), 10, 30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\handlers\marzban_client.py", line 59, in trial_sub
+    user = await api.get_user(tg_id, token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 232, in get_user
+    response = await self._request("GET", url, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 121, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-12 00:54:44,863 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:49 +05)" (scheduled at 2025-03-12 00:54:44.858165+05:00)
+2025-03-12 00:54:44,864 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:45,423 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:49 +05)" executed successfully
+2025-03-12 00:54:49,858 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:54 +05)" (scheduled at 2025-03-12 00:54:49.858165+05:00)
+2025-03-12 00:54:49,860 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:50,399 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:54 +05)" executed successfully
+2025-03-12 00:54:54,868 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:59 +05)" (scheduled at 2025-03-12 00:54:54.858165+05:00)
+2025-03-12 00:54:54,869 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:54:55,377 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:54:59 +05)" executed successfully
+2025-03-12 00:54:59,863 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:04 +05)" (scheduled at 2025-03-12 00:54:59.858165+05:00)
+2025-03-12 00:54:59,865 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:00,429 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:04 +05)" executed successfully
+2025-03-12 00:55:04,373 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-12 00:55:04,859 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:09 +05)" (scheduled at 2025-03-12 00:55:04.858165+05:00)
+2025-03-12 00:55:04,860 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:05,394 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-12 00:55:05,395 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:09 +05)" executed successfully
+2025-03-12 00:55:05,544 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/user "HTTP/1.1 200 OK"
+2025-03-12 00:55:05,907 - aiogram.event - INFO - Update id=278180636 is handled. Duration 1534 ms by bot id=7429942015
+2025-03-12 00:55:09,861 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:14 +05)" (scheduled at 2025-03-12 00:55:09.858165+05:00)
+2025-03-12 00:55:09,862 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:10,395 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:14 +05)" executed successfully
+2025-03-12 00:55:14,865 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:19 +05)" (scheduled at 2025-03-12 00:55:14.858165+05:00)
+2025-03-12 00:55:14,866 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:15,400 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:19 +05)" executed successfully
+2025-03-12 00:55:19,868 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:24 +05)" (scheduled at 2025-03-12 00:55:19.858165+05:00)
+2025-03-12 00:55:19,870 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:20,370 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:24 +05)" executed successfully
+2025-03-12 00:55:24,860 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:29 +05)" (scheduled at 2025-03-12 00:55:24.858165+05:00)
+2025-03-12 00:55:24,862 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:25,389 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:29 +05)" executed successfully
+2025-03-12 00:55:29,862 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:34 +05)" (scheduled at 2025-03-12 00:55:29.858165+05:00)
+2025-03-12 00:55:29,863 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:30,476 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:34 +05)" executed successfully
+2025-03-12 00:55:34,863 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:39 +05)" (scheduled at 2025-03-12 00:55:34.858165+05:00)
+2025-03-12 00:55:34,865 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:35,388 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:39 +05)" executed successfully
+2025-03-12 00:55:39,860 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:44 +05)" (scheduled at 2025-03-12 00:55:39.858165+05:00)
+2025-03-12 00:55:39,862 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:40,404 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:44 +05)" executed successfully
+2025-03-12 00:55:44,859 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:49 +05)" (scheduled at 2025-03-12 00:55:44.858165+05:00)
+2025-03-12 00:55:44,860 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:45,393 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:49 +05)" executed successfully
+2025-03-12 00:55:49,861 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:54 +05)" (scheduled at 2025-03-12 00:55:49.858165+05:00)
+2025-03-12 00:55:49,862 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:50,392 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:54 +05)" executed successfully
+2025-03-12 00:55:54,870 - apscheduler.executors.default - INFO - Running job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:59 +05)" (scheduled at 2025-03-12 00:55:54.858165+05:00)
+2025-03-12 00:55:54,872 - vpn_bot_v2 - INFO - Найдено 1 платежей для проверки
+2025-03-12 00:55:55,398 - apscheduler.executors.default - INFO - Job "check_payments (trigger: interval[0:00:05], next run at: 2025-03-12 00:55:59 +05)" executed successfully
+2025-03-12 00:55:55,497 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-12 00:55:55,750 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
