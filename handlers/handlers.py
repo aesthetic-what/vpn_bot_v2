@@ -1,35 +1,21 @@
-from aiogram import Router, F, Bot
-from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command, CommandStart
-from handlers.payments import *
-from decouple import config
-from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from apscheduler.jobstores.redis import RedisJobStore
-from apscheduler.schedulers.background import BackgroundScheduler
-from handlers.client import *
-import handlers.keyboard as kb
+from aiogram.types import Message, CallbackQuery
+from aiogram import Router, F, Bot
 from redis.asyncio import Redis
+
+from handlers.marzban_client import *
+from handlers.scheduler import *
+from handlers.payments import *
 from logger import Logger
-import time
+
+import handlers.keyboard as kb
+import os
+
 
 logger = Logger.getinstance()
-
 redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
-
-# jobStores = {
-#     "default": RedisJobStore(
-#         jobs_key="dispatched_trips_jobs",
-#         run_times_key="dispatched_trips_running",
-#         host="localhost",
-#         port=6379,
-#     )
-# }
-
 router = Router(name="handlers")
-
-scheduler = AsyncIOScheduler()
-
-bot = Bot(config("TELEGRAM_TOKEN"))
+bot = Bot(os.getenv("TELEGRAM_TOKEN"))
 
 
 @router.message(CommandStart())
@@ -64,7 +50,7 @@ async def tarif_1(call: CallbackQuery):
     chat_id = call.message.chat.id
     logger.info(f"chat_id: {chat_id}, payment_id: {payment_id}")
     await save_payment(chat_id, payment_id)
-    await start_scheduler()
+    await resume_scheduler()
     await call.bot.answer_callback_query(call.id)
 
 
@@ -73,12 +59,15 @@ async def tarif_1(call: CallbackQuery):
     price = 600
     payment_url, payment_id = create_payment(price, call.message.chat.id, 3)
     chat_id = call.message.chat.id
-    # await save_payment(chat_id, payment_id)
 
     await call.message.answer(
         "Тариф: 3 месяц\nЦена: 600руб.\nВыберите удобный для вас способ оплаты:",
         reply_markup=kb.get_var_payment_keyboard(price, payment_url),
     )
+
+    logger.info(f"chat_id: {chat_id}, payment_id: {payment_id}")
+    await save_payment(chat_id, payment_id)
+    await resume_scheduler()
     await call.bot.answer_callback_query(call.id)
 
 
@@ -92,18 +81,24 @@ async def tarif_1(call: CallbackQuery):
         "Тариф: 6 месяц\nЦена: 1200руб.\nВыберите удобный для вас способ оплаты:",
         reply_markup=kb.get_var_payment_keyboard(price, payment_url),
     )
+
+    logger.info(f"chat_id: {chat_id}, payment_id: {payment_id}")
+    await save_payment(chat_id, payment_id)
+    await resume_scheduler()
     await call.bot.answer_callback_query(call.id)
 
 
 @router.message(F.text == "⚡️ Подключисться!")
 async def connect(message: Message):
-    expiry_timestamp = int(time.time()) + (7 * 1000)
 
-    await create_user_vpn(f"user + {message.chat.id}", )
-    
-
+    sub_link = await trial_sub(str(message.chat.id), 10, 30)
     await message.answer(
-        "вот способы подключения к впн:", reply_markup=kb.connect_keyboard.as_markup()
+        "вот способы подключения к впн:\n"
+        "описание\n"
+        "сслыка для ручного подключения:\n"
+        f"`{sub_link}`",
+        reply_markup=kb.connect_keyboard.as_markup(),
+        parse_mode="Markdown"
     )
     await message.bot.delete_message(message.chat.id, message.message_id)
 
@@ -128,38 +123,3 @@ async def stars(call: CallbackQuery):
 async def back(call: CallbackQuery):
     await call.bot.delete_message(call.message.chat.id, call.message.message_id)
     await call.bot.answer_callback_query(call.id)
-
-async def check_payments():
-    payments = await redis.hgetall("payments")  # Получаем платежи как {payment_id: chat_id}
-
-    logger.info(f"Найдено {len(payments)} платежей для проверки")
-
-    for chat_id, payment_id in payments.items():
-        if not isinstance(payment_id, str):
-            logger.info(f"payment_id: {payment_id}")
-            logger.error(f"Ошибка: неверный payment_id = {payment_id}")
-            continue
-
-        payment = Payment.find_one(payment_id)
-
-        if payment and payment.status == "succeeded":
-            await bot.send_message(chat_id, "✅ Ваш платеж успешно подтвержден!")
-
-            # Логируем перед удалением
-            logger.info(f"Удаляю payment_id: {payment_id} из Redis")
-
-            await redis.hdel("payments", chat_id)  # Удаляем payment_id
-
-            # Удаляем задачу, если есть
-            job_id = f"payment_{payment_id}"
-            if scheduler.get_job(job_id):
-                scheduler.remove_job(job_id)
-
-    await redis.close()
-
-
-
-
-async def start_scheduler():
-    scheduler.add_job(check_payments, "interval", seconds=10, jobstore="default")
-    scheduler.start()

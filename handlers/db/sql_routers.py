@@ -19,3 +19,11 @@ async def create_user(username: str, chat_id: str | int,
                               time_sub=datetime_add))
             await session.commit()
 
+async def delete_user(chat_id: str | int):
+    ...
+
+async def update_sub(chat_id: str | int, datetime_sub: datetime):
+    ...
+
+
+

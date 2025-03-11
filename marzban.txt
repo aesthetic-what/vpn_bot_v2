@@ -1,0 +1,8 @@
+сервер заказчика
+RUS:
+Панель управления Marzban (https://github.com/Gozargah/Marzban) доступна по следующим данным:
+Ссылка - http://127.0.0.1:8000/dashboard/
+Логин - admin
+Пароль - 1r2w3d4YJvlg
+
+1r2w3d4YJvlg
