@@ -1,17 +1,19 @@
-from aiogram.filters import Command, CommandStart
+from aiogram.filters import CommandStart
 from aiogram.types import Message, CallbackQuery
 from aiogram import Router, F, Bot
 from redis.asyncio import Redis
 
 from handlers.marzban_client import *
+from handlers.db.sql_routers import *
 from handlers.scheduler import *
 from handlers.payments import *
+from dotenv import load_dotenv
 from logger import Logger
 
 import handlers.keyboard as kb
 import os
 
-
+load_dotenv()
 logger = Logger.getinstance()
 redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
 router = Router(name="handlers")
@@ -24,6 +26,7 @@ async def start(message: Message):
         "👋 Здравствуйте. Это Telegram-бот для подключения к VPN.\nВам доступен бесплатный период - 10 дней.\nДля начала работы нажмите ⚡️Подключиться ↓",
         reply_markup=kb.menu_keyboard,
     )
+
 
 
 @router.message(F.text == "ℹ️ Статус")
@@ -41,13 +44,13 @@ async def buy(message: Message):
 @router.callback_query(F.data == "1")
 async def tarif_1(call: CallbackQuery):
     price = 200
+    chat_id = call.message.chat.id
     payment_url, payment_id = create_payment(price, call.message.chat.id, 3)
     await call.message.answer(
         "Тариф: 1 месяц\nЦена: 200руб.\nВыберите удобный для вас способ оплаты:",
         reply_markup=kb.get_var_payment_keyboard(price, payment_url),
     )
 
-    chat_id = call.message.chat.id
     logger.info(f"chat_id: {chat_id}, payment_id: {payment_id}")
     await save_payment(chat_id, payment_id)
     await resume_scheduler()
@@ -90,13 +93,24 @@ async def tarif_1(call: CallbackQuery):
 
 @router.message(F.text == "⚡️ Подключисться!")
 async def connect(message: Message):
+    username = message.from_user.first_name
+    chat_id = str(message.chat.id)
 
-    sub_link = await trial_sub(str(message.chat.id), 10, 30)
+    sub_link = await trial_sub(chat_id, 10, 30)
+    await create_user(username, chat_id, sub_link)
+
+    user_link = await get_user_link(chat_id)
+
     await message.answer(
-        "вот способы подключения к впн:\n"
-        "описание\n"
-        "сслыка для ручного подключения:\n"
-        f"`{sub_link}`",
+        "Доступ к VPN в 2 шага:\n\n"
+        "1️⃣ `Скачать` - для скачивания приложения\n"
+        f"2️⃣ `Подключить` - для добавления подписки\n\nНастроить VPN вручную:\n"
+        "- [Инструкция для Android](https://telegra.ph/Podklyuchenie-Hiddify-Android-03-13) 🤖\n"
+        "- [Инструкция для Iphone](https://telegra.ph/Podklyuchenie-Hiddify-IOS-03-13) 🍎\n"
+        "- [Инструкция для Windows](https://telegra.ph/Podklyuchenie-VPN-na-Windows-03-13) 🖥️\n\n"
+        "Ссылка для ручного подключения\n"
+        "Тапните чтобы скопировать в буфер обмена ↓\n\n"
+        f"`{user_link}`\n",
         reply_markup=kb.connect_keyboard.as_markup(),
         parse_mode="Markdown"
     )
@@ -114,6 +128,7 @@ async def help(message: Message):
 
 @router.callback_query(F.data.startswith("stars_payment"))
 async def stars(call: CallbackQuery):
+    scheduler.remove_job("check_payments")
     price = int(call.data.split(":")[1])
     await kb.stars_payment(price, call.message.chat.id)
     await call.bot.answer_callback_query(call.id)
@@ -123,3 +138,9 @@ async def stars(call: CallbackQuery):
 async def back(call: CallbackQuery):
     await call.bot.delete_message(call.message.chat.id, call.message.message_id)
     await call.bot.answer_callback_query(call.id)
+
+@router.callback_query(F.data == "go_back_payment")
+async def back(call: CallbackQuery):
+    await call.bot.delete_message(call.message.chat.id, call.message.message_id)
+    await call.bot.answer_callback_query(call.id)
+    scheduler.resume_job("check_payments")

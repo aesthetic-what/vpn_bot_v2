@@ -9,13 +9,15 @@ from logger import Logger
 import asyncio
 import os
 
-load_dotenv()
 logger = Logger.getinstance()
-
+load_dotenv()
+token = os.getenv("TELEGRAM_TOKEN")
 
 async def main():
+
     await init_db()
-    bot = Bot(token=os.getenv("TELEGRAM_TOKEN"))
+    # print(token)
+    bot = Bot(token=token)
     dp = Dispatcher()
     dp.include_router(router)
     await start_scheduler()

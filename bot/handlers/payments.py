@@ -1,25 +1,19 @@
 import uuid
-import asyncio
-import json
-import logging
+import os
 
 from yookassa import Configuration, Payment
-from decouple import config
 from redis.asyncio import Redis
-
+from logger import Logger
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
+from dotenv import load_dotenv
 
+load_dotenv()
+
+logger = Logger.getinstance()
 scheduler = AsyncIOScheduler()
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(
-    filename="api.log",
-    level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-)
-
-acc_id = config("ACCOUNT_ID")
-secret_key = config("SECRET_KEY")
+acc_id = os.getenv("ACCOUNT_ID")
+secret_key = os.getenv("SECRET_KEY")
 
 redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
 
@@ -35,10 +29,10 @@ async def save_payment(chat_id: str, payment_id: str | int):
         await redis.close()
 
 
-# Configuration.account_id = '989951'
-# Configuration.secret_key = 'live_TVbe6YpKTdOqawLKLjRq0icralev2G5M9BRFvx03JyU'
-Configuration.account_id = "1041305"
-Configuration.secret_key = "test_PNTvM-9eEgTUUfjT6PnevgVi3kkTQKWJ3zcEYs2FHm4"
+Configuration.account_id = acc_id
+Configuration.secret_key = secret_key
+# Configuration.account_id = "1041305"
+# Configuration.secret_key = "test_PNTvM-9eEgTUUfjT6PnevgVi3kkTQKWJ3zcEYs2FHm4"
 
 
 def create_payment(amount, chat_id, count):

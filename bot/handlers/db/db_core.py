@@ -1,14 +1,18 @@
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncAttrs
 from sqlalchemy.orm import DeclarativeBase
-from decouple import config
+from dotenv import load_dotenv
+import os
 
-username = config("DB_USERNAME")
-password = config("DB_PASS")
-port = config("DB_PORT")
-db_name = config("DB_NAME")
+load_dotenv()
 
-# engine_str = f'postgresql+asyncpg://{username}:{password}@{port}/{db_name}'
-engine_str = 'postgresql+asyncpg://postgres:pass@localhost:5432/testDB'
+username = os.getenv("DB_USERNAME")
+password = os.getenv("DB_PASS")
+host = os.getenv("DB_HOST")
+port = os.getenv("DB_PORT")
+db_name = os.getenv("DB_NAME")
+
+engine_str = f'postgresql+asyncpg://{username}:{password}@{host}:{port}/{db_name}'
+# engine_str = 'postgresql+asyncpg://postgres:pass@localhost:5432/testDB'
 # engine_str = 'postgresql+psycopg2://postgres:pass@localhost:5432/testDB'
 
 engine = create_async_engine(engine_str)
@@ -24,5 +28,6 @@ async def get_db():
         db.close()
 
 async def init_db():
+    # print(username, password, host, port, db_name)
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
