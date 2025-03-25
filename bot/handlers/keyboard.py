@@ -16,10 +16,14 @@ token = os.getenv("TELEGRAM_TOKEN")
 bot = Bot(token=token)
 keyboard = Router(name="keyboard")
 
+status_keyboard = InlineKeyboardBuilder()
+_go_back = InlineKeyboardButton(text='Назад', callback_data="go_back")
+status_keyboard.add(_go_back)
+status_keyboard.adjust(1)
 
 menu_keyboard = ReplyKeyboardMarkup(
     keyboard=[
-        [KeyboardButton(text="ℹ️ Статус"), KeyboardButton(text="⚡️ Подключисться!")],
+        [KeyboardButton(text="ℹ️ Статус"), KeyboardButton(text="⚡️ Подключиться!")],
         [KeyboardButton(text="🔥 Купить"), KeyboardButton(text="❓ Помощь")],
     ],
     resize_keyboard=True,

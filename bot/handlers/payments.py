@@ -15,7 +15,8 @@ scheduler = AsyncIOScheduler()
 acc_id = os.getenv("ACCOUNT_ID")
 secret_key = os.getenv("SECRET_KEY")
 
-redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
+redis = Redis(host="redis", port=6379, db=0, decode_responses=True)
+# redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
 
 
 async def save_payment(chat_id: str, payment_id: str | int):

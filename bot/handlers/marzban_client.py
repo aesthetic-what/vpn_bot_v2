@@ -5,13 +5,25 @@ from marzban import (MarzbanAPI,
                      ProxySettings)
 import os
 from logger import Logger
-from handlers.db.sql_routers import check_user
+from handlers.db.sql_routers import check_user, get_user_info
 
 logger = Logger.getinstance()
 
 
 api_url = os.getenv("API_URL")
 FILE_PATH = "users.txt"  # Файл для хранения tg_id
+
+async def get_users():
+    api = MarzbanAPI(api_url)
+    username = os.getenv("USERNAME_API")
+    password = os.getenv("PASSWORD_API")
+
+    logger.info(f"admin data: {username, password}")
+
+    token = await api.get_token(username, password)
+    token = token.access_token
+
+    return await api.get_users(token)   
 
 
 async def trial_sub(tg_id: str, days_sub: int, data_limit: int):
@@ -24,11 +36,11 @@ async def trial_sub(tg_id: str, days_sub: int, data_limit: int):
     token = await api.get_token(username, password)
     token = token.access_token
 
-    checking = await check_user(tg_id)
+    # checking = await check_user(tg_id)
     # print(checking)
     
     __expiry_timestamp = int(time.time()) + (days_sub * 86400)
-    __expiry_timestamp *= 1000
+    # __expiry_timestamp * 1000
 
     __data = data_limit * 2**30
 
@@ -47,8 +59,10 @@ async def trial_sub(tg_id: str, days_sub: int, data_limit: int):
         expire=__expiry_timestamp,
     )
 
+    logger.info(f"{new_user.expire}, type: {type(new_user.expire)}")
+
     add_user = await api.add_user(new_user, token)
-    return api_url + add_user.subscription_url
+    return api_url + add_user.subscription_url, __expiry_timestamp
     
 
 async def activate_sub(tg_id: str):
@@ -87,3 +101,28 @@ async def update_sub(tg_id: str, days_sub: int, data_limit: int | None = None):
     if checking:
         update_user = UserModify(expire=__expiry_timestamp, data_limit=__data)
         await api.modify_user(tg_id, update_user, token)
+
+
+async def get_days(chat_id: str):
+    api = MarzbanAPI(api_url)
+    username = os.getenv("USERNAME_API")
+    password = os.getenv("PASSWORD_API")
+
+    token = await api.get_token(username, password)
+    token = token.access_token
+
+    user = await api.get_user(chat_id, token)
+
+    end_time = user.expire
+
+      # Это время окончания подписки из БД
+    current_time = int(time.time())  # Текущее время
+
+    # Вычисляем количество оставшихся секунд
+    remaining_seconds = max(end_time - current_time, 0)
+
+    # Преобразуем секунды в дни
+    remaining_days = remaining_seconds // 86400
+
+    print(f"Осталось дней: {remaining_days}")
+    return remaining_days

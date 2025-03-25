@@ -1,4 +1,4 @@
-from aiogram.filters import CommandStart
+from aiogram.filters import CommandStart, Command
 from aiogram.types import Message, CallbackQuery
 from aiogram import Router, F, Bot
 from redis.asyncio import Redis
@@ -15,7 +15,8 @@ import os
 
 load_dotenv()
 logger = Logger.getinstance()
-redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
+redis = Redis(host="redis", port=6379, db=0, decode_responses=True)
+# redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
 router = Router(name="handlers")
 bot = Bot(os.getenv("TELEGRAM_TOKEN"))
 
@@ -23,7 +24,7 @@ bot = Bot(os.getenv("TELEGRAM_TOKEN"))
 @router.message(CommandStart())
 async def start(message: Message):
     await message.answer(
-        "👋 Здравствуйте. Это Telegram-бот для подключения к VPN.\nВам доступен бесплатный период - 10 дней.\nДля начала работы нажмите ⚡️Подключиться ↓",
+        "👋 Здравствуйте. Это Telegram-бот для подключения к VPN.\nВам доступен бесплатный период - 10 дней.\nДля начала работы нажмите ⚡️Подключиться ↓\nИли можно нажать команду /subscribe",
         reply_markup=kb.menu_keyboard,
     )
 
@@ -31,7 +32,9 @@ async def start(message: Message):
 
 @router.message(F.text == "ℹ️ Статус")
 async def info(message: Message):
-    await message.answer("Статус аккаунта")
+    # await message.answer("Статус аккаунта")
+    days = await get_days(str(message.chat.id))
+    await message.answer(f"Доступ: {days} дней", reply_markup=kb.status_keyboard.as_markup())
     await message.bot.delete_message(message.chat.id, message.message_id)
 
 
@@ -90,16 +93,63 @@ async def tarif_1(call: CallbackQuery):
     await resume_scheduler()
     await call.bot.answer_callback_query(call.id)
 
-
 @router.message(F.text == "⚡️ Подключисться!")
 async def connect(message: Message):
+    logger.info("connect button")
     username = message.from_user.first_name
     chat_id = str(message.chat.id)
 
-    sub_link = await trial_sub(chat_id, 10, 30)
-    await create_user(username, chat_id, sub_link)
+    # Проверяем, есть ли пользователь в базе
+    user_exists = await check_user(chat_id)
+    logger.info(user_exists)
 
-    user_link = await get_user_link(chat_id)
+    if user_exists:
+        user_link = await get_user_link(chat_id)
+    else:
+        # Если пользователя нет, создаём пробную подписку и записываем в БД
+        sub_link = await trial_sub(chat_id, 10, 30)
+        await create_user(username, chat_id, sub_link)
+        user_link = sub_link  # Используем ссылку, которая только что создана
+
+    await message.answer(
+        "Доступ к VPN в 2 шага:\n\n"
+        "1️⃣ `Скачать` - для скачивания приложения\n"
+        f"2️⃣ `Подключить` - для добавления подписки\n\nНастроить VPN вручную:\n"
+        "- [Инструкция для Android](https://telegra.ph/Podklyuchenie-Hiddify-Android-03-13) 🤖\n"
+        "- [Инструкция для Iphone](https://telegra.ph/Podklyuchenie-Hiddify-IOS-03-13) 🍎\n"
+        "- [Инструкция для Windows](https://telegra.ph/Podklyuchenie-VPN-na-Windows-03-13) 🖥️\n\n"
+        "Ссылка для ручного подключения\n"
+        "Тапните чтобы скопировать в буфер обмена ↓\n\n"
+        f"`{user_link}`\n",
+        reply_markup=kb.connect_keyboard.as_markup(),
+        parse_mode="Markdown"
+    )
+    await message.bot.delete_message(message.chat.id, message.message_id)
+
+
+@router.message(Command("users"))
+async def all_users(message: Message):
+    users = await get_users()
+    print(users)
+
+
+@router.message(Command('subscribe'))
+async def connect(message: Message):
+    logger.info("connect button")
+    username = message.from_user.first_name
+    chat_id = str(message.chat.id)
+
+    # Проверяем, есть ли пользователь в базе
+    user_exists = await check_user(chat_id)
+    logger.info(user_exists)
+
+    if user_exists:
+        user_link = await get_user_link(chat_id)
+    else:
+        # Если пользователя нет, создаём пробную подписку и записываем в БД
+        sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+        await create_user(username, chat_id, sub_link, expire_time)
+        user_link = sub_link  # Используем ссылку, которая только что создана
 
     await message.answer(
         "Доступ к VPN в 2 шага:\n\n"

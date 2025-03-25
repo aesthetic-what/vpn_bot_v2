@@ -17,7 +17,8 @@ scheduler = AsyncIOScheduler()
 logger = Logger.getinstance()
 bot = Bot(token=token)
 
-redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
+redis = Redis(host="redis", port=6379, db=0, decode_responses=True)
+# redis = Redis(host="localhost", port=6379, db=0, decode_responses=True)
 
 async def check_payments():
     """Функция для фоновой проверки оплаты,

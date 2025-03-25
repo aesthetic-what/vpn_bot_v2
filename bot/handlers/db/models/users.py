@@ -9,4 +9,5 @@ class Users(Base):
     username: Mapped[str]
     user_id: Mapped[str] = mapped_column(unique=True)
     sub_link: Mapped[str]
+    expire_time: Mapped[int]
     role: Mapped[str] = mapped_column(default='user')

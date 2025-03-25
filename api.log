@@ -199,3 +199,1861 @@ Traceback (most recent call last):
         None, getaddr_func, host, port, family, type, proto, flags)
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 asyncio.exceptions.CancelledError
+2025-03-24 20:34:17,686 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-24 20:34:17,688 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-24 20:34:17,688 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-24 20:34:17,689 - aiogram.dispatcher - INFO - Start polling
+2025-03-24 20:34:17,931 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 20:34:18,308 - aiogram.event - INFO - Update id=278180791 is handled. Duration 282 ms by bot id=7429942015
+2025-03-24 20:34:18,450 - aiogram.event - INFO - Update id=278180792 is handled. Duration 417 ms by bot id=7429942015
+2025-03-24 20:34:27,139 - aiogram.event - INFO - Update id=278180793 is handled. Duration 162 ms by bot id=7429942015
+2025-03-24 20:34:29,758 - aiogram.event - INFO - Update id=278180794 is handled. Duration 389 ms by bot id=7429942015
+2025-03-24 20:35:06,010 - aiogram.event - INFO - Update id=278180795 is handled. Duration 181 ms by bot id=7429942015
+2025-03-24 20:57:34,642 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-24 20:57:34,898 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 20:57:44,153 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-24 20:57:44,154 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-24 20:57:44,154 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-24 20:57:44,154 - aiogram.dispatcher - INFO - Start polling
+2025-03-24 20:57:44,372 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 20:57:47,722 - aiogram.event - INFO - Update id=278180796 is handled. Duration 312 ms by bot id=7429942015
+2025-03-24 20:57:49,955 - vpn_bot_v2 - INFO - connect button
+2025-03-24 20:57:49,960 - vpn_bot_v2 - INFO - True
+2025-03-24 20:57:50,194 - aiogram.event - INFO - Update id=278180797 is handled. Duration 239 ms by bot id=7429942015
+2025-03-24 21:16:54,728 - aiogram.event - INFO - Update id=278180798 is handled. Duration 179 ms by bot id=7429942015
+2025-03-24 21:16:55,500 - aiogram.event - INFO - Update id=278180799 is handled. Duration 175 ms by bot id=7429942015
+2025-03-24 21:16:56,811 - aiogram.event - INFO - Update id=278180800 is handled. Duration 151 ms by bot id=7429942015
+2025-03-24 21:16:57,435 - aiogram.event - INFO - Update id=278180801 is handled. Duration 157 ms by bot id=7429942015
+2025-03-24 21:16:58,094 - aiogram.event - INFO - Update id=278180802 is handled. Duration 156 ms by bot id=7429942015
+2025-03-24 21:16:58,688 - aiogram.event - INFO - Update id=278180803 is handled. Duration 149 ms by bot id=7429942015
+2025-03-24 21:16:59,371 - aiogram.event - INFO - Update id=278180804 is handled. Duration 273 ms by bot id=7429942015
+2025-03-24 21:17:02,963 - aiogram.event - INFO - Update id=278180805 is handled. Duration 214 ms by bot id=7429942015
+2025-03-24 21:17:03,190 - aiogram.event - INFO - Update id=278180806 is handled. Duration 371 ms by bot id=7429942015
+2025-03-24 21:17:03,917 - aiogram.event - INFO - Update id=278180807 is handled. Duration 175 ms by bot id=7429942015
+2025-03-24 21:17:06,134 - vpn_bot_v2 - INFO - connect button
+2025-03-24 21:17:06,136 - vpn_bot_v2 - INFO - True
+2025-03-24 21:17:06,511 - aiogram.event - INFO - Update id=278180808 is handled. Duration 377 ms by bot id=7429942015
+2025-03-24 21:17:11,374 - aiogram.event - INFO - Update id=278180809 is handled. Duration 164 ms by bot id=7429942015
+2025-03-24 21:58:18,083 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-24 21:58:18,349 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 21:59:08,339 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-24 21:59:08,340 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-24 21:59:08,340 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-24 21:59:08,340 - aiogram.dispatcher - INFO - Start polling
+2025-03-24 21:59:08,553 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 21:59:22,711 - aiogram.event - INFO - Update id=278180810 is handled. Duration 483 ms by bot id=7429942015
+2025-03-24 21:59:25,350 - aiogram.event - INFO - Update id=278180811 is handled. Duration 132 ms by bot id=7429942015
+2025-03-24 21:59:27,915 - vpn_bot_v2 - INFO - connect button
+2025-03-24 21:59:27,920 - vpn_bot_v2 - INFO - True
+2025-03-24 21:59:28,137 - aiogram.event - INFO - Update id=278180812 is handled. Duration 222 ms by bot id=7429942015
+2025-03-24 22:46:00,221 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-24 22:46:00,485 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 22:47:27,498 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-24 22:47:27,499 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-24 22:47:27,499 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-24 22:47:27,499 - aiogram.dispatcher - INFO - Start polling
+2025-03-24 22:47:27,723 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 22:47:32,494 - vpn_bot_v2 - INFO - connect button
+2025-03-24 22:47:32,499 - vpn_bot_v2 - INFO - False
+2025-03-24 22:47:32,591 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-24 22:47:33,135 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-24 22:47:33,199 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 404 Not Found"
+2025-03-24 22:47:33,200 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Client error '404 Not Found' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-24 22:47:33,270 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/user "HTTP/1.1 500 Internal Server Error"
+2025-03-24 22:47:33,271 - aiogram.event - INFO - Update id=278180813 is not handled. Duration 777 ms by bot id=7429942015
+2025-03-24 22:47:33,271 - aiogram.event - ERROR - Cause exception while process update id=278180813 by bot id=7429942015
+HTTPStatusError: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link = await trial_sub(chat_id, 10, 30)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 50, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 121, in _request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-24 22:50:38,151 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-24 22:50:38,404 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 22:52:28,685 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-24 22:52:28,686 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-24 22:52:28,686 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-24 22:52:28,686 - aiogram.dispatcher - INFO - Start polling
+2025-03-24 22:52:28,895 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 22:52:43,159 - aiogram.event - INFO - Update id=278180814 is handled. Duration 247 ms by bot id=7429942015
+2025-03-24 23:02:25,756 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-24 23:02:26,009 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 23:02:35,290 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-24 23:02:35,291 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-24 23:02:35,291 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-24 23:02:35,291 - aiogram.dispatcher - INFO - Start polling
+2025-03-24 23:02:35,513 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-24 23:03:05,769 - aiogram.event - INFO - Update id=278180815 is handled. Duration 272 ms by bot id=7429942015
+2025-03-24 23:03:10,214 - vpn_bot_v2 - INFO - connect button
+2025-03-24 23:03:10,218 - vpn_bot_v2 - INFO - False
+2025-03-24 23:03:10,268 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-24 23:03:12,578 - aiogram.event - INFO - Update id=278180816 is not handled. Duration 2364 ms by bot id=7429942015
+2025-03-24 23:03:12,578 - aiogram.event - ERROR - Cause exception while process update id=278180816 by bot id=7429942015
+ConnectError: All connection attempts failed
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 24, in trial_sub
+    token = await api.get_token(username, password)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 138, in get_token
+    response = await self.client.post(url, data=payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1859, in post
+    return await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+2025-03-25 13:15:19,615 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 13:15:19,617 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 13:15:19,617 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 13:15:19,617 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 13:15:19,994 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:15:28,454 - aiogram.event - INFO - Update id=278180817 is handled. Duration 333 ms by bot id=7429942015
+2025-03-25 13:15:30,150 - aiogram.event - INFO - Update id=278180818 is not handled. Duration 1 ms by bot id=7429942015
+2025-03-25 13:15:43,572 - vpn_bot_v2 - INFO - connect button
+2025-03-25 13:15:43,581 - vpn_bot_v2 - INFO - False
+2025-03-25 13:15:43,674 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 13:15:44,333 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 13:15:44,400 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 13:15:44,401 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 13:15:44,407 - aiogram.event - INFO - Update id=278180819 is not handled. Duration 835 ms by bot id=7429942015
+2025-03-25 13:15:44,407 - aiogram.event - ERROR - Cause exception while process update id=278180819 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 50, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 13:21:26,313 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] The network connection was aborted by the local system
+2025-03-25 13:21:26,314 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7429942015)
+2025-03-25 13:21:37,525 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7429942015)
+2025-03-25 13:21:47,999 - vpn_bot_v2 - INFO - connect button
+2025-03-25 13:21:48,001 - vpn_bot_v2 - INFO - False
+2025-03-25 13:21:48,001 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 13:21:48,575 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 13:21:48,647 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 13:21:48,647 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 13:21:48,652 - aiogram.event - INFO - Update id=278180820 is not handled. Duration 653 ms by bot id=7429942015
+2025-03-25 13:21:48,652 - aiogram.event - ERROR - Cause exception while process update id=278180820 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 50, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 13:24:53,922 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 13:24:54,188 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:25:01,094 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 13:25:01,095 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 13:25:01,095 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 13:25:01,095 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 13:25:01,466 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:25:04,734 - vpn_bot_v2 - INFO - connect button
+2025-03-25 13:25:04,738 - vpn_bot_v2 - INFO - False
+2025-03-25 13:25:04,786 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 13:25:05,445 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 13:25:05,510 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 13:25:05,510 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 13:25:05,513 - aiogram.event - INFO - Update id=278180821 is not handled. Duration 780 ms by bot id=7429942015
+2025-03-25 13:25:05,513 - aiogram.event - ERROR - Cause exception while process update id=278180821 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 50, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 13:25:19,644 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 13:25:19,897 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:25:24,871 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 13:25:24,872 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 13:25:24,872 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 13:25:24,872 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 13:25:25,181 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:25:29,589 - aiogram.event - INFO - Update id=278180822 is handled. Duration 329 ms by bot id=7429942015
+2025-03-25 13:25:30,767 - vpn_bot_v2 - INFO - connect button
+2025-03-25 13:25:30,771 - vpn_bot_v2 - INFO - False
+2025-03-25 13:25:30,820 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 13:25:31,392 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 13:25:31,464 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 13:25:31,465 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 13:25:31,467 - aiogram.event - INFO - Update id=278180823 is not handled. Duration 701 ms by bot id=7429942015
+2025-03-25 13:25:31,467 - aiogram.event - ERROR - Cause exception while process update id=278180823 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 50, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 13:31:08,079 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 13:31:08,339 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:31:14,901 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 13:31:14,902 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 13:31:14,902 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 13:31:14,902 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 13:31:15,286 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:31:21,637 - aiogram.event - INFO - Update id=278180824 is handled. Duration 350 ms by bot id=7429942015
+2025-03-25 13:31:22,337 - vpn_bot_v2 - INFO - connect button
+2025-03-25 13:31:22,341 - vpn_bot_v2 - INFO - False
+2025-03-25 13:31:22,389 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 13:31:22,942 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 13:31:23,011 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 13:31:23,011 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 13:31:23,014 - aiogram.event - INFO - Update id=278180825 is not handled. Duration 678 ms by bot id=7429942015
+2025-03-25 13:31:23,014 - aiogram.event - ERROR - Cause exception while process update id=278180825 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 50, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 13:32:18,081 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 13:32:18,345 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:32:30,071 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 13:32:30,072 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 13:32:30,072 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 13:32:30,072 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 13:32:30,445 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:32:33,735 - aiogram.event - INFO - Update id=278180826 is handled. Duration 307 ms by bot id=7429942015
+2025-03-25 13:32:34,735 - vpn_bot_v2 - INFO - connect button
+2025-03-25 13:32:34,739 - vpn_bot_v2 - INFO - False
+2025-03-25 13:32:34,785 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 13:32:35,381 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 13:32:35,452 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 13:32:35,453 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 13:32:35,457 - aiogram.event - INFO - Update id=278180827 is not handled. Duration 723 ms by bot id=7429942015
+2025-03-25 13:32:35,457 - aiogram.event - ERROR - Cause exception while process update id=278180827 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 50, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 13:39:33,222 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-03-25 13:39:33,222 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7429942015)
+2025-03-25 13:39:44,449 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7429942015)
+2025-03-25 13:42:50,747 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 13:42:51,010 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:42:56,195 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 13:42:56,196 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 13:42:56,196 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 13:42:56,196 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 13:42:56,572 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:43:03,176 - aiogram.event - INFO - Update id=278180828 is handled. Duration 330 ms by bot id=7429942015
+2025-03-25 13:43:03,884 - vpn_bot_v2 - INFO - connect button
+2025-03-25 13:43:03,888 - vpn_bot_v2 - INFO - False
+2025-03-25 13:43:03,936 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 13:43:04,515 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 13:43:04,579 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 13:43:04,580 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 13:43:04,617 - aiogram.event - INFO - Update id=278180829 is not handled. Duration 734 ms by bot id=7429942015
+2025-03-25 13:43:04,617 - aiogram.event - ERROR - Cause exception while process update id=278180829 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 52, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 13:43:05,481 - aiogram.event - INFO - Update id=278180830 is not handled. Duration 0 ms by bot id=7429942015
+2025-03-25 13:44:19,411 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 13:44:19,673 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:44:55,934 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 13:44:55,934 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 13:44:55,934 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 13:44:55,935 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 13:44:56,249 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 13:44:58,150 - vpn_bot_v2 - INFO - connect button
+2025-03-25 13:44:58,154 - vpn_bot_v2 - INFO - False
+2025-03-25 13:44:58,199 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 13:44:58,769 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 13:44:58,836 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 13:44:58,837 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 13:44:58,846 - aiogram.event - INFO - Update id=278180831 is not handled. Duration 696 ms by bot id=7429942015
+2025-03-25 13:44:58,847 - aiogram.event - ERROR - Cause exception while process update id=278180831 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 52, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 13:45:35,857 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 13:45:36,115 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 14:04:36,043 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 14:04:36,044 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 14:04:36,044 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 14:04:36,044 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 14:04:36,254 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 14:04:39,126 - vpn_bot_v2 - INFO - connect button
+2025-03-25 14:04:39,130 - vpn_bot_v2 - INFO - False
+2025-03-25 14:04:39,176 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 14:04:39,761 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 14:04:39,827 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 14:04:39,828 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 14:04:39,828 - vpn_bot_v2 - INFO - 1743757479, type: <class 'int'>
+2025-03-25 14:04:39,830 - aiogram.event - INFO - Update id=278180832 is not handled. Duration 704 ms by bot id=7429942015
+2025-03-25 14:04:39,830 - aiogram.event - ERROR - Cause exception while process update id=278180832 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 52, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 14:05:56,958 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 14:05:57,213 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 14:06:02,116 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 14:06:02,117 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 14:06:02,117 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 14:06:02,117 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 14:06:02,339 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 14:06:11,468 - vpn_bot_v2 - INFO - connect button
+2025-03-25 14:06:11,472 - vpn_bot_v2 - INFO - False
+2025-03-25 14:06:11,520 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 14:06:12,137 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 14:06:12,203 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 500 Internal Server Error"
+2025-03-25 14:06:12,203 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Server error '500 Internal Server Error' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-03-25 14:06:12,203 - vpn_bot_v2 - INFO - 500, type: <class 'int'>
+2025-03-25 14:06:12,207 - aiogram.event - INFO - Update id=278180833 is not handled. Duration 739 ms by bot id=7429942015
+2025-03-25 14:06:12,207 - aiogram.event - ERROR - Cause exception while process update id=278180833 by bot id=7429942015
+RemoteProtocolError: Server disconnected without sending a response.
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\handlers.py", line 143, in connect
+    sub_link, expire_time = await trial_sub(chat_id, 10, 30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\bot\handlers\marzban_client.py", line 52, in trial_sub
+    add_user = await api.add_user(new_user, token)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 227, in add_user
+    response = await self._request("POST", url, token, data=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\marzban\api.py", line 120, in _request
+    response = await self.client.request(method, url, headers=headers, json=json_data, params=params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\ZV\Desktop\python\vpn_bot_v2\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+2025-03-25 14:08:54,526 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 14:08:54,781 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 14:09:06,330 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 14:09:06,331 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 14:09:06,331 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 14:09:06,331 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 14:09:06,552 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 14:09:13,329 - aiogram.event - INFO - Update id=278180834 is handled. Duration 254 ms by bot id=7429942015
+2025-03-25 14:09:14,523 - vpn_bot_v2 - INFO - connect button
+2025-03-25 14:09:14,527 - vpn_bot_v2 - INFO - False
+2025-03-25 14:09:14,575 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 14:09:15,121 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 14:09:15,183 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/user/863618184 "HTTP/1.1 404 Not Found"
+2025-03-25 14:09:15,183 - vpn_bot_v2 - WARNING - User 863618184 not found, creating new one. Error: Client error '404 Not Found' for url 'https://aestheticperforator.ru/api/user/863618184'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2025-03-25 14:09:15,183 - vpn_bot_v2 - INFO - 1743757755, type: <class 'int'>
+2025-03-25 14:09:15,260 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/user "HTTP/1.1 200 OK"
+2025-03-25 14:09:15,653 - aiogram.event - INFO - Update id=278180835 is handled. Duration 1131 ms by bot id=7429942015
+2025-03-25 14:09:25,431 - aiogram.event - INFO - Update id=278180836 is not handled. Duration 1 ms by bot id=7429942015
+2025-03-25 14:10:13,490 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 14:10:13,755 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 14:12:02,633 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-25 14:12:02,634 - apscheduler.scheduler - INFO - Added job "check_status" to job store "default"
+2025-03-25 14:12:02,634 - vpn_bot_v2 - INFO - [<Job (id=status_checker name=check_status)>]
+2025-03-25 14:12:02,634 - aiogram.dispatcher - INFO - Start polling
+2025-03-25 14:12:02,840 - aiogram.dispatcher - INFO - Run polling for bot @testing_station_bot id=7429942015 - 'testing_station'
+2025-03-25 14:12:07,764 - vpn_bot_v2 - INFO - admin data: ('admin', 'jXCWh9Q7ImaZ')
+2025-03-25 14:12:08,308 - httpx - INFO - HTTP Request: POST https://aestheticperforator.ru/api/admin/token "HTTP/1.1 200 OK"
+2025-03-25 14:12:08,381 - httpx - INFO - HTTP Request: GET https://aestheticperforator.ru/api/users "HTTP/1.1 200 OK"
+2025-03-25 14:12:08,382 - aiogram.event - INFO - Update id=278180837 is handled. Duration 665 ms by bot id=7429942015
+2025-03-25 15:06:57,496 - aiogram.dispatcher - INFO - Polling stopped
+2025-03-25 15:06:57,749 - aiogram.dispatcher - INFO - Polling stopped for bot @testing_station_bot id=7429942015 - 'testing_station'

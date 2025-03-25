@@ -7,14 +7,15 @@ from datetime import datetime
 
 logger = Logger.getinstance()
 
-async def create_user(username: str, chat_id: str, sub_link: str):
+async def create_user(username: str, chat_id: str, sub_link: str, expire_time:int):
     async with local_session() as session:
         user = await session.scalar(select(Users).where(Users.user_id == chat_id))
 
         if not user:
             session.add(Users(username=username,
                               user_id=chat_id,
-                              sub_link=sub_link))
+                              sub_link=sub_link,
+                              expire_time=expire_time))
             await session.commit()
 
 
