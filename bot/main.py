@@ -14,9 +14,7 @@ load_dotenv()
 token = os.getenv("TELEGRAM_TOKEN")
 
 async def main():
-
     await init_db()
-    # print(token)
     bot = Bot(token=token)
     dp = Dispatcher()
     dp.include_router(router)

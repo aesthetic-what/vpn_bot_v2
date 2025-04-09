@@ -13,7 +13,7 @@ db_name = os.getenv("DB_NAME")
 
 engine_str = f'postgresql+asyncpg://{username}:{password}@{host}:{port}/{db_name}'
 # engine_str = 'postgresql+asyncpg://postgres:pass@localhost:5432/testDB'
-# engine_str = 'postgresql+psycopg2://postgres:pass@localhost:5432/testDB'
+# engine_str = 'sqlite+aiosqlite:///vpn_shop.db'
 
 engine = create_async_engine(engine_str)
 local_session = async_sessionmaker(bind=engine)
@@ -28,6 +28,5 @@ async def get_db():
         db.close()
 
 async def init_db():
-    # print(username, password, host, port, db_name)
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)

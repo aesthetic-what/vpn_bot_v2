@@ -1,7 +1,7 @@
 import uuid
 import os
 
-from yookassa import Configuration, Payment
+from yookassa import Configuration, Payment, Receipt
 from redis.asyncio import Redis
 from logger import Logger
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
@@ -36,8 +36,46 @@ Configuration.secret_key = secret_key
 # Configuration.secret_key = "test_PNTvM-9eEgTUUfjT6PnevgVi3kkTQKWJ3zcEYs2FHm4"
 
 
-def create_payment(amount, chat_id, count):
+def create_receipt(amount, payment_id: str, chat_id: str):
+    receipt = Receipt.create({
+                "customer": {
+                    "email": f"{chat_id}@gmail.com",
+                },
+                "type": "payment",
+                "payment_id": payment_id,
+                "send": True,
+                "items": [
+                    {
+                        "description": f"Подписка KittyV##",
+                        "quantity": 1.000,
+                        "amount": {
+                            "value": f"{amount}.00",
+                            "currency": "RUB"
+                        },
+                        "vat_code": 1,
+                        "payment_mode": "full_payment",
+                        "payment_subject": "service"
+                    }
+                ],
+                "tax_system_code": 1,
+                "settlements": [
+                    {
+                        "type": "cashless",
+                        "amount": {
+                            "value": f"{amount}.00",
+                            "currency": "RUB"
+                        }
+                    }
+                ],
+            },
+            payment_id)
+    return receipt
+
+def create_payment(amount: str, chat_id: str):
     payment_id = str(uuid.uuid4())
+
+    # receipt = create_receipt(count, amount, payment_id, chat_id)
+
     payment = Payment.create(
         {
             "amount": {
@@ -50,13 +88,43 @@ def create_payment(amount, chat_id, count):
             },
             "capture": True,
             "description": "Оплата подписки",
+            "receipt": {
+                "customer": {
+                    "email": f"{chat_id}@gmail.com",
+                },
+                "type": "payment",
+                "payment_id": payment_id,
+                "send": True,
+                "items": [
+                    {
+                        "description": f"Подписка услуги телеграмм бота",
+                        "quantity": 1.000,
+                        "amount": {
+                            "value": f"{amount}.00",
+                            "currency": "RUB"
+                        },
+                        "vat_code": 1,
+                        "payment_mode": "full_payment",
+                        "payment_subject": "service"
+                    }
+                ],
+                "tax_system_code": 1,
+                "settlements": [
+                    {
+                        "type": "cashless",
+                        "amount": {
+                            "value": f"{amount}.00",
+                            "currency": "RUB"
+                        }
+                    }
+                ],
+            },
             "metadata": {
                 "chat_id": chat_id,
                 "order_id": payment_id,
             },
-            "description": f"Подписка на {count} месяц(a/ев)",
-        },
-        payment_id,
-    )
+            "description": f"Подписка KittyV##",
+        },payment_id)
 
+    
     return payment.confirmation.confirmation_url, payment.id

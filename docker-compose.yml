@@ -6,8 +6,8 @@ services:
       YOOKASSA_TOKEN: 390540012:LIVE:58475
       # P2P_TOKEN: 4100118858023438.D49A1E7C037F12DD41F4CA29F85AB2D08BBDD758D144241E7F2DA94A1858E5C68FB695FFA7F405D9369BA046027019D23F8C88EE814C3205B10C120C09D9086C4C90F722E694482F733A2A6F7B90DB3CF41E8373AAE57553FCD728D8A58E10C656E099FB59BC82CEE50B29509E43EB64BEF8FCFAD7E91A498C247361A5710846
       CERT_SHA_KEY: 4CD2A9BAE65D4D27EC5E8520BE5E25EB021B556C0DEFD0EC8CF8515E885BA848
-      ACCOUNT_ID: 989951
-      SECRET_KEY: live_TVbe6YpKTdOqawLKLjRq0icralev2G5M9BRFvx03JyU
+      ACCOUNT_ID: 1056010
+      SECRET_KEY: live_ChM7Sm6Z_as6fcztbT8nbWJYk0NLe6LIckTJPuAbGhs
       DB_USERNAME: postgres
       DB_PASS: pass
       DB_HOST: postgres
@@ -15,6 +15,7 @@ services:
       DB_NAME: vpn_bot
       API_URL: https://aestheticperforator.ru
       USERNAME_API: admin
+      # PASSWORD_API: wIiL4CBjBWmC
       PASSWORD_API: jXCWh9Q7ImaZ
     restart: unless-stopped
     depends_on:
@@ -24,7 +25,9 @@ services:
     image: postgres
     restart: always
     environment:
+      - POSTGRES_USERNAME=postgres
       - POSTGRES_PASSWORD=pass
+      - POSTGRES_NAME=vpn_bot
     volumes:
       - ./psql-data/:/var/lib/postgresql/data
 
@@ -34,3 +37,6 @@ services:
     restart: always
     volumes:
       - redis_data:/data
+
+volumes:
+  redis_data:
