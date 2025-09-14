@@ -1,7 +1,0 @@
-~/.acme.sh/acme.sh --set-default-ca --server letsencrypt --issue --standalone -d kosach.site \
---key-file /var/lib/marzban/certs/key.pem \
---fullchain-file /var/lib/marzban/certs/fullchain.pem
-
-hiddify://import/https://aestheticperforator.ru/KittyVPN_sub/ODYzNjE4MTg0LDE3NDMwODkyNTkO9Fe54xsIz
-hiddify://import/https://aestheticperforator.ru/KittyVPN_sub/ODYzNjE4MTg0LDE3NDMwODkyNTkO9Fe54xsIz
-hiddify://import/https://aestheticperforator.ru/KittyVPN_sub/T2xlc3lhLDE3NDMwOTA2Njc7R_SoRgxyO
